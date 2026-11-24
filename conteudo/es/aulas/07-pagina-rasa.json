@@ -79,7 +79,7 @@
     {
       "tipo": "passos",
       "titulo": "El caso de las 283 fichas",
-      "sub": "Lo que pasó en INEMA y lo que se aprende. Haz clic en cada etapa.",
+      "sub": "Lo que pasó en ARCKHÉ y lo que se aprende. Haz clic en cada etapa.",
       "passos": [
         {
           "titulo": "El lote",
@@ -102,7 +102,7 @@
         },
         {
           "titulo": "La regla",
-          "sub": "método inemaSEO",
+          "sub": "método ARCKHÉSEO",
           "texto": [
             "Una página sin contenido suficiente recibe noindex y sale del sitemap hasta tener cuerpo. Una ruta en serie solo entra al sitemap con contenido único y datos específicos de ese ítem.",
             "El enriquecimiento de las fichas, con datos reales y un freno contra la invención, es tema del curso 2."
@@ -179,7 +179,7 @@
       "sub": "La explicación aparece después de tu respuesta.",
       "perguntas": [
         {
-          "p": "¿Por qué las 283 fichas de INEMA no se indexaban?",
+          "p": "¿Por qué las 283 fichas de ARCKHÉ no se indexaban?",
           "opcoes": [
             "El sitio estaba fuera de línea.",
             "Eran delgadas y parecidas: de 170 a 240 palabras y 47% del vocabulario en común entre dos fichas.",
@@ -262,8 +262,8 @@
           "icone": "escudo"
         },
         {
-          "t": "Checklist de publicación de inemaSEO",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/CHECKLIST.md",
+          "t": "Checklist de publicación de ARCKHÉSEO",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/CHECKLIST.md",
           "icone": "check"
         }
       ]

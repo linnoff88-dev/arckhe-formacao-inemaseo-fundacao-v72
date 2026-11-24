@@ -90,7 +90,7 @@
             "Una cuenta duplicada separa el historial y confunde a quien cuida el sitio."
           ],
           "exemplo": {
-            "rot": "En INEMA (23/09/2026)",
+            "rot": "En ARCKHÉ (23/09/2026)",
             "texto": "Un plan decía \"sin Search Console\" porque buscó solo en el código. El DNS mostraba la verificación. La regla quedó así: revisar el TXT antes de afirmar que no existe."
           }
         },
@@ -194,7 +194,7 @@
             "Nada, basta con crearla."
           ],
           "certa": 1,
-          "explica": "El TXT en el DNS muestra que alguien ya verificó. En INEMA, un plan afirmó \"sin Search Console\" mirando solo el código; el DNS decía lo contrario.",
+          "explica": "El TXT en el DNS muestra que alguien ya verificó. En ARCKHÉ, un plan afirmó \"sin Search Console\" mirando solo el código; el DNS decía lo contrario.",
           "ref": "passos",
           "cert": true
         },

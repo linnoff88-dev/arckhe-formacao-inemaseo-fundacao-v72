@@ -42,7 +42,7 @@
       "passos": [
         {"titulo": "Procurar o que já existe", "sub": "antes de criar",
          "texto": ["Rode o comando dig no seu domínio. Se aparecer google-site-verification, alguém já verificou: ache essa conta e peça acesso.", "Conta duplicada separa o histórico e confunde quem cuida do site."],
-         "exemplo": {"rot": "No INEMA (23/09/2026)", "texto": "Um plano dizia \"sem Search Console\" porque procurou só no código. O DNS mostrava a verificação. A regra virou: conferir o TXT antes de afirmar que não existe."}},
+         "exemplo": {"rot": "No ARCKHÉ (23/09/2026)", "texto": "Um plano dizia \"sem Search Console\" porque procurou só no código. O DNS mostrava a verificação. A regra virou: conferir o TXT antes de afirmar que não existe."}},
         {"titulo": "Criar a propriedade", "sub": "domínio, não prefixo",
          "texto": ["No Search Console, escolha \"Domínio\" e cole o TXT que ele mostra no painel do seu DNS (no registrador ou na CDN).", "A propagação pode levar alguns minutos; depois clique em verificar."],
          "exemplo": {"rot": "Por que domínio", "texto": "Uma propriedade só cobre www, sem www e subdomínios como news. ou eventos."}},
@@ -92,7 +92,7 @@
       "perguntas": [
         {"p": "Antes de criar uma conta no Search Console, o que conferir?",
          "opcoes": ["O número de visitas.", "Se o DNS já tem um TXT google-site-verification.", "Se o site tem llms.txt.", "Nada, basta criar."],
-         "certa": 1, "explica": "O TXT no DNS mostra que alguém já verificou. No INEMA, um plano afirmou \"sem Search Console\" olhando só o código; o DNS dizia o contrário.", "ref": "passos", "cert": true},
+         "certa": 1, "explica": "O TXT no DNS mostra que alguém já verificou. No ARCKHÉ, um plano afirmou \"sem Search Console\" olhando só o código; o DNS dizia o contrário.", "ref": "passos", "cert": true},
         {"p": "Por que a propriedade de domínio é a escolha do método?",
          "opcoes": ["É a única gratuita.", "Cobre www, sem www e subdomínios numa propriedade só.", "Indexa mais rápido.", "Dispensa o sitemap."],
          "certa": 1, "explica": "Com prefixo você verifica uma versão só do endereço. A de domínio junta tudo e evita histórico separado.", "ref": "diagrama"},

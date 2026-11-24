@@ -14,7 +14,7 @@
   ],
   "aprende": [
     {
-      "t": "Descargar el método inemaSEO y ejecutar la auditoría"
+      "t": "Descargar el método ARCKHÉSEO y ejecutar la auditoría"
     },
     {
       "t": "Leer redirecciones, robots.txt, sitemaps y páginas"
@@ -90,12 +90,12 @@
           "titulo": "Descargar",
           "sub": "el método es abierto",
           "texto": [
-            "inemaSEO es público, con licencia MIT. Necesitas una terminal con bash y curl: Mac y Linux ya los tienen; en Windows, usa WSL o Git Bash.",
+            "ARCKHÉSEO es público, con licencia MIT. Necesitas una terminal con bash y curl: Mac y Linux ya los tienen; en Windows, usa WSL o Git Bash.",
             "Clona el repositorio y entra en la carpeta."
           ],
           "exemplo": {
             "rot": "Dónde está",
-            "texto": "github.com/inematds/inemaseo-metodo, carpeta tools/."
+            "texto": "github.com/linnoff88-dev/ARCKHÉseo-metodo, carpeta tools/."
           }
         },
         {
@@ -140,7 +140,7 @@
         {
           "rot": "Terminal · descargar el método",
           "icone": "git",
-          "conteudo": "git clone https://github.com/inematds/inemaseo-metodo.git\ncd inemaseo-metodo"
+          "conteudo": "git clone https://github.com/linnoff88-dev/ARCKHÉseo-metodo.git\ncd ARCKHÉseo-metodo"
         },
         {
           "rot": "Terminal · ejecutar y guardar",
@@ -157,8 +157,8 @@
         "selo": "real",
         "abas": [
           {
-            "rot": "Salida en www.inema.club",
-            "html": "<p>Fragmento de <code>auditoria.sh</code> ejecutado el 19/10/2026 (robots.txt acortado):</p><pre>== Redirecionamentos\n  http://www.inema.club/ -&gt; 308 https://www.inema.club/\n  https://inema.club/ -&gt; 308 https://www.inema.club/\n  https://www.inema.club/ -&gt; 200\n== robots.txt\n  User-Agent: *\n  Allow: /\n  (…)\n== Sitemaps\n  https://www.inema.club/sitemap.xml: 83 URLs, 60 anotações hreflang\n  https://www.inema.club/courses-sitemap.xml: 100 URLs, 0 anotações hreflang\n== llms.txt: 200\n== Páginas\n-- /cursos/  [200]\n   title:     Cursos de inteligência artificial, agentes e automação | INEMA.club\n   canonical: https://www.inema.club/cursos/\n   hreflang:  hrefLang=\"en\" hrefLang=\"es\" hrefLang=\"pt-BR\" hrefLang=\"x-default\"\n   links internos no HTML: 334\n-- /conhecimento/  [200]\n   canonical: https://www.inema.club/conhecimento/\n   hreflang:\n   links internos no HTML: 58</pre>"
+            "rot": "Salida en www.ARCKHÉ AI",
+            "html": "<p>Fragmento de <code>auditoria.sh</code> ejecutado el 19/10/2026 (robots.txt acortado):</p><pre>== Redirecionamentos\n  http://www.ARCKHÉ AI/ -&gt; 308 https://www.ARCKHÉ AI/\n  https://ARCKHÉ AI/ -&gt; 308 https://www.ARCKHÉ AI/\n  https://www.ARCKHÉ AI/ -&gt; 200\n== robots.txt\n  User-Agent: *\n  Allow: /\n  (…)\n== Sitemaps\n  https://www.ARCKHÉ AI/sitemap.xml: 83 URLs, 60 anotações hreflang\n  https://www.ARCKHÉ AI/courses-sitemap.xml: 100 URLs, 0 anotações hreflang\n== llms.txt: 200\n== Páginas\n-- /cursos/  [200]\n   title:     Cursos de inteligência artificial, agentes e automação | ARCKHÉ AI\n   canonical: https://www.ARCKHÉ AI/cursos/\n   hreflang:  hrefLang=\"en\" hrefLang=\"es\" hrefLang=\"pt-BR\" hrefLang=\"x-default\"\n   links internos no HTML: 334\n-- /conhecimento/  [200]\n   canonical: https://www.ARCKHÉ AI/conhecimento/\n   hreflang:\n   links internos no HTML: 58</pre>"
           },
           {
             "rot": "El caso detrás",
@@ -272,17 +272,17 @@
       "links": [
         {
           "t": "auditoria.sh en GitHub",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/auditoria.sh",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/auditoria.sh",
           "icone": "terminal"
         },
         {
-          "t": "Método inemaSEO: las 10 etapas",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "Método ARCKHÉSEO: las 10 etapas",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "lista"
         },
         {
           "t": "WebMCP Readiness: prueba del sitio en el navegador",
-          "href": "https://webmcp.inema.pro/",
+          "href": "https://webmcp.ARCKHÉ.pro/",
           "icone": "lupa"
         }
       ]

@@ -23,7 +23,7 @@
       "t": "hreflang de ida y vuelta, en cada página"
     },
     {
-      "t": "El caso de la página en español de INEMA"
+      "t": "El caso de la página en español de ARCKHÉ"
     }
   ],
   "hero_alt": "Mapa de papel abierto sobre una mesa de madera, con alfileres unidos por hilo.",
@@ -92,7 +92,7 @@
             "Si todas las fechas son de hoy, el generador está usando la hora del build."
           ],
           "exemplo": {
-            "rot": "En el portal de INEMA",
+            "rot": "En el portal de ARCKHÉ",
             "texto": "El generador toma la fecha del catálogo, con el comentario \"nunca uses la hora del build\" en el código."
           }
         },
@@ -111,7 +111,7 @@
             "En español la competencia suele ser menor. Traduce solo el texto; la estructura, las imágenes y el código se reutilizan."
           ],
           "exemplo": {
-            "rot": "En INEMA",
+            "rot": "En ARCKHÉ",
             "texto": "La página /es/aprender-inteligencia-artificial/ fue indexada el 03/10/2026. A la semana siguiente ya tenía de 5 a 10 impresiones en cada consulta en español, en las posiciones 29 a 61."
           }
         }
@@ -142,8 +142,8 @@
         "selo": "real",
         "abas": [
           {
-            "rot": "Sitemap de inema.club",
-            "html": "<p>Primera URL del sitemap de www.inema.club el 19/10/2026:</p><pre>&lt;loc&gt;https://www.inema.club/&lt;/loc&gt;\n&lt;xhtml:link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://www.inema.club/\" /&gt;\n&lt;xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"https://www.inema.club/en/\" /&gt;\n&lt;xhtml:link rel=\"alternate\" hreflang=\"es\" href=\"https://www.inema.club/es/\" /&gt;\n&lt;xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"https://www.inema.club/\" /&gt;\n&lt;lastmod&gt;2026-10-19&lt;/lastmod&gt;</pre><p>La home cambia cuando cambia el catálogo; por eso la fecha es la del catálogo.</p>"
+            "rot": "Sitemap de ARCKHÉ AI",
+            "html": "<p>Primera URL del sitemap de www.ARCKHÉ AI el 19/10/2026:</p><pre>&lt;loc&gt;https://www.ARCKHÉ AI/&lt;/loc&gt;\n&lt;xhtml:link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://www.ARCKHÉ AI/\" /&gt;\n&lt;xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"https://www.ARCKHÉ AI/en/\" /&gt;\n&lt;xhtml:link rel=\"alternate\" hreflang=\"es\" href=\"https://www.ARCKHÉ AI/es/\" /&gt;\n&lt;xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"https://www.ARCKHÉ AI/\" /&gt;\n&lt;lastmod&gt;2026-10-19&lt;/lastmod&gt;</pre><p>La home cambia cuando cambia el catálogo; por eso la fecha es la del catálogo.</p>"
           },
           {
             "rot": "Cómo leer el conteo",
@@ -216,7 +216,7 @@
           "ref": "diagrama"
         },
         {
-          "p": "¿Qué muestra el caso de la página en español de INEMA?",
+          "p": "¿Qué muestra el caso de la página en español de ARCKHÉ?",
           "opcoes": [
             "Que traducir no cambia nada.",
             "Que una página ES indexada el 03/10 ya tenía impresiones en consultas ES la semana siguiente.",
@@ -262,8 +262,8 @@
           "icone": "camadas"
         },
         {
-          "t": "Método inemaSEO: multilingüe",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "Método ARCKHÉSEO: multilingüe",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "lista"
         }
       ]

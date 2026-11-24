@@ -48,7 +48,7 @@
          "texto": ["Se um cliente cola o seu link no assistente e pede um resumo, é esse robô que lê. Liberar costuma ser o natural para quem vende ou ensina."]},
         {"titulo": "Libero treino?", "sub": "decisão sua",
          "texto": ["Aqui não há resposta certa: é escolha de negócio. Bloquear treino não tira você da busca.", "Anote o motivo no próprio robots.txt, num comentário, para quem vier depois."],
-         "exemplo": {"rot": "No inema.club", "texto": "O robots.txt libera também o ClaudeBot, que é de treino: o INEMA é conteúdo aberto e escolheu liberar."}},
+         "exemplo": {"rot": "No ARCKHÉ AI", "texto": "O robots.txt libera também o ClaudeBot, que é de treino: o ARCKHÉ é conteúdo aberto e escolheu liberar."}},
         {"titulo": "A CDN concorda?", "sub": "painel",
          "texto": ["Abra o painel da CDN e procure a configuração de robôs e de IA. Confirme se há bloqueio padrão ligado e em que páginas.", "Se o painel bloqueia o que o robots.txt libera, vale o painel."]}
       ]
@@ -59,7 +59,7 @@
       "sub": "Adapte a decisão de treino à sua. Troque o endereço do sitemap.",
       "blocos": [
         {"rot": "robots.txt · por finalidade", "icone": "arquivo",
-         "conteudo": "# robots.txt por finalidade (adaptado do templates/robots.txt do inemaSEO)\nUser-agent: *\nAllow: /\n\n# Busca: aparecer e ser citado nas respostas\nUser-agent: OAI-SearchBot\nUser-agent: Claude-SearchBot\nUser-agent: PerplexityBot\nUser-agent: Googlebot\nUser-agent: Bingbot\nAllow: /\n\n# Ação do usuário: a IA abre a página a pedido de alguém\nUser-agent: ChatGPT-User\nUser-agent: Claude-User\nUser-agent: Perplexity-User\nAllow: /\n\n# Treino: decisão sua. Este exemplo bloqueia; bloquear treino não tira da busca\nUser-agent: GPTBot\nUser-agent: ClaudeBot\nUser-agent: Google-Extended\nDisallow: /\n\nSitemap: https://www.seusite.com/sitemap.xml"},
+         "conteudo": "# robots.txt por finalidade (adaptado do templates/robots.txt do ARCKHÉSEO)\nUser-agent: *\nAllow: /\n\n# Busca: aparecer e ser citado nas respostas\nUser-agent: OAI-SearchBot\nUser-agent: Claude-SearchBot\nUser-agent: PerplexityBot\nUser-agent: Googlebot\nUser-agent: Bingbot\nAllow: /\n\n# Ação do usuário: a IA abre a página a pedido de alguém\nUser-agent: ChatGPT-User\nUser-agent: Claude-User\nUser-agent: Perplexity-User\nAllow: /\n\n# Treino: decisão sua. Este exemplo bloqueia; bloquear treino não tira da busca\nUser-agent: GPTBot\nUser-agent: ClaudeBot\nUser-agent: Google-Extended\nDisallow: /\n\nSitemap: https://www.seusite.com/sitemap.xml"},
         {"rot": "llms.txt · opcional (templates/llms.txt, resumido)", "icone": "arquivo",
          "conteudo": "# Seu Site\n\n> Uma frase dizendo o que é, para quem e o que entrega.\n\n## Principais páginas\n\n- [Início](https://www.seusite.com/)\n- [Sobre / quem faz](https://www.seusite.com/sobre/)\n- [Catálogo](https://www.seusite.com/catalogo/)\n\n## Dados para máquinas\n\n- [Sitemap](https://www.seusite.com/sitemap.xml)"},
         {"rot": "Anotação da decisão", "icone": "lista",

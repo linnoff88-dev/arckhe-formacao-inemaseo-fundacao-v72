@@ -106,7 +106,7 @@
             "It isn't a secret: it's public by design, and it proves the site is yours."
           ],
           "exemplo": {
-            "rot": "At INEMA (10/02/2026)",
+            "rot": "At ARCKHÉ (10/02/2026)",
             "texto": "The news site's first submission came back 403 SiteVerificationNotCompleted: the key had just been published. Resubmitting after about 4 minutes fixed it."
           }
         },
@@ -126,7 +126,7 @@
             "The expected response is HTTP 200 or 202."
           ],
           "exemplo": {
-            "rot": "At INEMA",
+            "rot": "At ARCKHÉ",
             "texto": "09/24/2026: 109 URLs through IndexNow, response 202. 10/02: 90 URLs through Bing and IndexNow, response 200."
           }
         },
@@ -138,7 +138,7 @@
             "The gsc_inspecionar.py script does the same in batch, but it needs a Google credential; start with the dashboard."
           ],
           "exemplo": {
-            "rot": "At INEMA",
+            "rot": "At ARCKHÉ",
             "texto": "On 10/05/2026, 12 of 14 key URLs were indexed; on 10/13, 13 of 14. Only /eventos/ was missing, \"unknown to Google\"."
           }
         }
@@ -249,7 +249,7 @@
             "Send it by email."
           ],
           "certa": 2,
-          "explica": "At INEMA, the newly published key returned 403; resending after about 4 minutes fixed it.",
+          "explica": "At ARCKHÉ, the newly published key returned 403; resending after about 4 minutes fixed it.",
           "ref": "passos"
         },
         {
@@ -323,7 +323,7 @@
       "tipo": "gerador",
       "titulo": "Generate your plan with dates",
       "sub": "Pick a start date and how much time you have each week. The plan respects the exercise that asks for a week of waiting.",
-      "curso": "inemaSEO 1 · Foundation",
+      "curso": "ARCKHÉSEO 1 · Foundation",
       "horas_padrao": 3,
       "degraus": [
         {
@@ -360,7 +360,7 @@
         }
       ],
       "txt": {
-        "titulo": "Plan — inemaSEO 1 · Foundation",
+        "titulo": "Plan — ARCKHÉSEO 1 · Foundation",
         "inicio": "Start",
         "ritmo": "Pace",
         "termino": "Expected finish",
@@ -401,17 +401,17 @@
         },
         {
           "t": "avisar_buscadores.sh on GitHub",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/avisar_buscadores.sh",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/avisar_buscadores.sh",
           "icone": "terminal"
         },
         {
-          "t": "inemaSEO Area in Eventos",
-          "href": "https://eventos.inema.pro/inemaseo/",
+          "t": "ARCKHÉSEO Area in Eventos",
+          "href": "https://eventos.ARCKHÉ.pro/ARCKHÉseo/",
           "icone": "camadas"
         },
         {
-          "t": "Next: inemaSEO 2 · Content",
-          "href": "https://inematds.github.io/formacao-inemaseo-conteudo-v72/",
+          "t": "Next: ARCKHÉSEO 2 · Content",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "seta"
         }
       ]

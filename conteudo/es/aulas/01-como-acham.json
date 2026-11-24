@@ -5,7 +5,7 @@
   "titulo": "Cómo Google, Bing y las IA encuentran un sitio",
   "titulo_curto": "Cómo encuentran el sitio",
   "minutos": 14,
-  "lead": "Escribir más páginas no sirve si el buscador no puede leer las que ya tienes. Esta clase te muestra el camino que recorre una página hasta aparecer en una búsqueda o en una respuesta de IA, los tres principios del método inemaSEO y la vara oficial de Google de 2026 para separar lo fundamental de la moda.",
+  "lead": "Escribir más páginas no sirve si el buscador no puede leer las que ya tienes. Esta clase te muestra el camino que recorre una página hasta aparecer en una búsqueda o en una respuesta de IA, los tres principios del método ARCKHÉSEO y la vara oficial de Google de 2026 para separar lo fundamental de la moda.",
   "objetivo": "explicar el camino rastrear, indexar, mostrar y citar, y elegir qué hacer primero en tu sitio.",
   "competencias": [
     "explicar-rastreo-e-indexacion",
@@ -17,7 +17,7 @@
       "t": "El camino de una página hasta la búsqueda y la respuesta de IA"
     },
     {
-      "t": "Los tres principios del método inemaSEO"
+      "t": "Los tres principios del método ARCKHÉSEO"
     },
     {
       "t": "Qué dice la guía de Google de mayo/2026 sobre la IA"
@@ -111,7 +111,7 @@
             "Empiezas mirando lo que ya existe, no creando más."
           ],
           "exemplo": {
-            "rot": "En INEMA",
+            "rot": "En ARCKHÉ",
             "texto": "El 23/09/2026, la página /cursos/ aparecía como \"Descubierta: actualmente sin indexar\" y las páginas nuevas eran desconocidas para Google."
           }
         },
@@ -135,7 +135,7 @@
             "Al principio, casi todos los clics son de la marca, y eso engaña."
           ],
           "exemplo": {
-            "rot": "Línea base de INEMA",
+            "rot": "Línea base de ARCKHÉ",
             "texto": "En los 28 días del 25/08 al 21/09/2026, 639 de 647 clics eran de marca."
           }
         },
@@ -173,8 +173,8 @@
         "selo": "real",
         "abas": [
           {
-            "rot": "El caso de INEMA",
-            "html": "<p>Ronda única el 10/07/2026, con 20 preguntas congeladas: INEMA apareció en <b>0 de 48</b> respuestas neutras en Claude y en <b>0 de 4</b> en Gemini. ChatGPT y Perplexity no se midieron.</p><p>\"¿Qué es INEMA?\" tuvo 4 de 4 respuestas sobre otro organismo con el mismo nombre: <b>colisión de nombre</b>. La pregunta 3 de la planilla existe para detectar esto en tu caso.</p>"
+            "rot": "El caso de ARCKHÉ",
+            "html": "<p>Ronda única el 10/07/2026, con 20 preguntas congeladas: ARCKHÉ apareció en <b>0 de 48</b> respuestas neutras en Claude y en <b>0 de 4</b> en Gemini. ChatGPT y Perplexity no se midieron.</p><p>\"¿Qué es ARCKHÉ?\" tuvo 4 de 4 respuestas sobre otro organismo con el mismo nombre: <b>colisión de nombre</b>. La pregunta 3 de la planilla existe para detectar esto en tu caso.</p>"
           },
           {
             "rot": "Cómo leerlo",
@@ -187,7 +187,7 @@
       "tipo": "video",
       "titulo": "El método completo en 7 minutos",
       "sub": "El video del 10/10/2026 recorre las 10 etapas. Justo debajo, lo que corrigió la investigación de octubre.",
-      "chave": "inemaseo-pratica"
+      "chave": "ARCKHÉseo-pratica"
     },
     {
       "tipo": "texto",
@@ -259,7 +259,7 @@
             "Porque los clics no importan."
           ],
           "certa": 1,
-          "explica": "En INEMA, 639 de 647 clics eran de marca. Lo que muestra si el SEO funciona son las búsquedas sin la marca, de quien no te conocía.",
+          "explica": "En ARCKHÉ, 639 de 647 clics eran de marca. Lo que muestra si el SEO funciona son las búsquedas sin la marca, de quien no te conocía.",
           "ref": "passos"
         },
         {
@@ -304,18 +304,18 @@
           "icone": "lupa"
         },
         {
-          "t": "Método inemaSEO: guía de uso",
-          "href": "https://inematds.github.io/inemaseo-metodo/guia/",
+          "t": "Método ARCKHÉSEO: guía de uso",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "lista"
         },
         {
-          "t": "Página del video inemaSEO en la práctica",
-          "href": "https://inematds.github.io/inemaseo-pratica/videos/",
+          "t": "Página del video ARCKHÉSEO en la práctica",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "video"
         },
         {
-          "t": "Área inemaSEO en Eventos",
-          "href": "https://eventos.inema.pro/inemaseo/",
+          "t": "Área ARCKHÉSEO en Eventos",
+          "href": "https://eventos.ARCKHÉ.pro/ARCKHÉseo/",
           "icone": "camadas"
         }
       ]

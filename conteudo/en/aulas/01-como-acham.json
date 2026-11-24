@@ -5,7 +5,7 @@
   "titulo": "How Google, Bing, and AI find a website",
   "titulo_curto": "How they find your site",
   "minutos": 14,
-  "lead": "Writing more pages won't help if the search engine can't read the ones you already have. This lesson shows the path a page takes until it appears in a search or an AI answer, the three principles of the inemaSEO method, and Google's official 2026 yardstick for telling foundation from fad.",
+  "lead": "Writing more pages won't help if the search engine can't read the ones you already have. This lesson shows the path a page takes until it appears in a search or an AI answer, the three principles of the ARCKHÉSEO method, and Google's official 2026 yardstick for telling foundation from fad.",
   "objetivo": "explain the path of crawling, indexing, showing, and citing, and choose what to do first on your site.",
   "competencias": [
     "explain-crawling-and-indexing",
@@ -17,7 +17,7 @@
       "t": "The path of a page to search and AI answers"
     },
     {
-      "t": "The three principles of the inemaSEO method"
+      "t": "The three principles of the ARCKHÉSEO method"
     },
     {
       "t": "What Google's May 2026 guide says about AI"
@@ -111,7 +111,7 @@
             "You start by looking at what already exists, not by creating more."
           ],
           "exemplo": {
-            "rot": "At INEMA",
+            "rot": "At ARCKHÉ",
             "texto": "On 09/23/2026, the /cursos/ page showed up as \"Discovered – currently not indexed\" and the new pages were unknown to Google."
           }
         },
@@ -135,7 +135,7 @@
             "At the start, almost every click is from the brand, and that is misleading."
           ],
           "exemplo": {
-            "rot": "INEMA baseline",
+            "rot": "ARCKHÉ baseline",
             "texto": "In the 28 days from 08/25 to 09/21/2026, 639 of 647 clicks were branded."
           }
         },
@@ -173,8 +173,8 @@
         "selo": "real",
         "abas": [
           {
-            "rot": "The INEMA case",
-            "html": "<p>A single round on 07/10/2026, with 20 frozen questions: INEMA appeared in <b>0 of 48</b> neutral answers on Claude and in <b>0 of 4</b> on Gemini. ChatGPT and Perplexity were not measured.</p><p>\"What is INEMA?\" got 4 of 4 answers about a different agency with the same name: a <b>name collision</b>. Question 3 in the spreadsheet exists to catch this in your case.</p>"
+            "rot": "The ARCKHÉ case",
+            "html": "<p>A single round on 07/10/2026, with 20 frozen questions: ARCKHÉ appeared in <b>0 of 48</b> neutral answers on Claude and in <b>0 of 4</b> on Gemini. ChatGPT and Perplexity were not measured.</p><p>\"What is ARCKHÉ?\" got 4 of 4 answers about a different agency with the same name: a <b>name collision</b>. Question 3 in the spreadsheet exists to catch this in your case.</p>"
           },
           {
             "rot": "How to read it",
@@ -187,7 +187,7 @@
       "tipo": "video",
       "titulo": "The whole method in 7 minutes",
       "sub": "The 10/10/2026 video walks through all 10 steps. Right below, what the October research corrected.",
-      "chave": "inemaseo-pratica"
+      "chave": "ARCKHÉseo-pratica"
     },
     {
       "tipo": "texto",
@@ -259,7 +259,7 @@
             "Because clicks don't matter."
           ],
           "certa": 1,
-          "explica": "At INEMA, 639 of 647 clicks were branded. What shows whether SEO is working is non-branded searches, from people who didn't know you.",
+          "explica": "At ARCKHÉ, 639 of 647 clicks were branded. What shows whether SEO is working is non-branded searches, from people who didn't know you.",
           "ref": "passos"
         },
         {
@@ -304,18 +304,18 @@
           "icone": "lupa"
         },
         {
-          "t": "inemaSEO method: usage guide",
-          "href": "https://inematds.github.io/inemaseo-metodo/guia/",
+          "t": "ARCKHÉSEO method: usage guide",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "lista"
         },
         {
-          "t": "inemaSEO in practice video page",
-          "href": "https://inematds.github.io/inemaseo-pratica/videos/",
+          "t": "ARCKHÉSEO in practice video page",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "video"
         },
         {
-          "t": "inemaSEO Area in Eventos",
-          "href": "https://eventos.inema.pro/inemaseo/",
+          "t": "ARCKHÉSEO Area in Eventos",
+          "href": "https://eventos.ARCKHÉ.pro/ARCKHÉseo/",
           "icone": "camadas"
         }
       ]

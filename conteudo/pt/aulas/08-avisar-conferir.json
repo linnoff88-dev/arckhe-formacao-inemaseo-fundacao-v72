@@ -44,15 +44,15 @@
       "passos": [
         {"titulo": "A chave", "sub": "IndexNow",
          "texto": ["Crie uma chave de 32 ou mais caracteres hexadecimais (números e letras de a a f) e publique-a em https://seusite.com/[sua-chave].txt, com só a chave dentro.", "Ela não é segredo: é pública por desenho, prova que o site é seu."],
-         "exemplo": {"rot": "No INEMA (02/10/2026)", "texto": "O primeiro envio do site de notícias voltou 403 SiteVerificationNotCompleted: a chave acabara de ser publicada. Reenviar depois de uns 4 minutos resolveu."}},
+         "exemplo": {"rot": "No ARCKHÉ (02/10/2026)", "texto": "O primeiro envio do site de notícias voltou 403 SiteVerificationNotCompleted: a chave acabara de ser publicada. Reenviar depois de uns 4 minutos resolveu."}},
         {"titulo": "A lista", "sub": "urls.txt",
          "texto": ["Uma URL por linha, todas do mesmo domínio, só o que é novo ou mudou.", "Não reenvie o site inteiro a cada mudança."]},
         {"titulo": "O envio", "sub": "avisar_buscadores.sh",
          "texto": ["Rode o script com a chave na variável INDEXNOW_KEY. Com BING_API_KEY, ele também usa a API do Bing Webmaster (opcional).", "A resposta esperada é HTTP 200 ou 202."],
-         "exemplo": {"rot": "No INEMA", "texto": "24/09/2026: 109 URLs pelo IndexNow, resposta 202. 02/10: 90 URLs pelo Bing e IndexNow, resposta 200."}},
+         "exemplo": {"rot": "No ARCKHÉ", "texto": "24/09/2026: 109 URLs pelo IndexNow, resposta 202. 02/10: 90 URLs pelo Bing e IndexNow, resposta 200."}},
         {"titulo": "A conferência", "sub": "inspeção de URL",
          "texto": ["Uma semana depois, inspecione as URLs-chave no Search Console. Anote o estado de cada uma.", "O script gsc_inspecionar.py faz o mesmo em lote, mas precisa de credencial do Google; comece pelo painel."],
-         "exemplo": {"rot": "No INEMA", "texto": "Em 05/10/2026, 12 de 14 URLs-chave estavam indexadas; em 13/10, 13 de 14. Faltava /eventos/, \"desconhecida pro Google\"."}}
+         "exemplo": {"rot": "No ARCKHÉ", "texto": "Em 05/10/2026, 12 de 14 URLs-chave estavam indexadas; em 13/10, 13 de 14. Faltava /eventos/, \"desconhecida pro Google\"."}}
       ]
     },
     {
@@ -104,7 +104,7 @@
          "certa": 1, "explica": "O IndexNow avisa Bing e outros participantes. No Google, sitemap enviado e inspeção de URL no Search Console.", "ref": "diagrama"},
         {"p": "O primeiro envio voltou 403 SiteVerificationNotCompleted. O que fazer?",
          "opcoes": ["Trocar de chave.", "Desistir do IndexNow.", "Conferir que o arquivo da chave responde e reenviar depois de alguns minutos.", "Mandar por e-mail."],
-         "certa": 2, "explica": "No INEMA, a chave recém-publicada deu 403; reenviar depois de uns 4 minutos resolveu.", "ref": "passos"},
+         "certa": 2, "explica": "No ARCKHÉ, a chave recém-publicada deu 403; reenviar depois de uns 4 minutos resolveu.", "ref": "passos"},
         {"p": "A inspeção mostra um canônico do Google diferente do seu. Para onde voltar?",
          "opcoes": ["Aula 4: um canônico só.", "Aula 6: robots.txt.", "Comprar uma ferramenta.", "Ignorar."],
          "certa": 0, "explica": "O Google escolheu outra URL como oficial. Confira canonical, sitemap, JSON-LD e links: algum lugar discorda.", "ref": "diagrama"}
@@ -128,7 +128,7 @@
       "tipo": "gerador",
       "titulo": "Gere o seu plano com datas",
       "sub": "Escolha a data de início e quanto tempo você tem por semana. O plano respeita o exercício que pede uma semana de espera.",
-      "curso": "inemaSEO 1 · Fundação",
+      "curso": "ARCKHÉSEO 1 · Fundação",
       "horas_padrao": 3,
       "degraus": [
         {"titulo": "Aula 1 · Como acham o site", "aula": "como-acham"},
@@ -140,7 +140,7 @@
         {"titulo": "Aula 7 · Página rasa", "aula": "pagina-rasa"},
         {"titulo": "Aula 8 · Avisar e conferir", "aula": "avisar-conferir"}
       ],
-      "txt": {"titulo": "Plano — inemaSEO 1 · Fundação", "inicio": "Início", "ritmo": "Ritmo", "termino": "Término previsto", "ate": "até", "pronto": "pronto quando", "semanas": "semanas", "travou": "## O que travou e o que eu decidi", "h": "h por semana", "exs": "exercícios"}
+      "txt": {"titulo": "Plano — ARCKHÉSEO 1 · Fundação", "inicio": "Início", "ritmo": "Ritmo", "termino": "Término previsto", "ate": "até", "pronto": "pronto quando", "semanas": "semanas", "travou": "## O que travou e o que eu decidi", "h": "h por semana", "exs": "exercícios"}
     },
     {
       "tipo": "resumo",
@@ -156,9 +156,9 @@
       "titulo": "Para ir além",
       "links": [
         {"t": "IndexNow: documentação (inglês)", "href": "https://www.indexnow.org/", "icone": "megafone"},
-        {"t": "avisar_buscadores.sh no GitHub", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/avisar_buscadores.sh", "icone": "terminal"},
-        {"t": "Área inemaSEO no Eventos", "href": "https://eventos.inema.pro/inemaseo/", "icone": "camadas"},
-        {"t": "Próximo: inemaSEO 2 · Conteúdo", "href": "https://inematds.github.io/formacao-inemaseo-conteudo-v72/", "icone": "seta"}
+        {"t": "avisar_buscadores.sh no GitHub", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/avisar_buscadores.sh", "icone": "terminal"},
+        {"t": "Área ARCKHÉSEO no Eventos", "href": "https://eventos.ARCKHÉ.pro/ARCKHÉseo/", "icone": "camadas"},
+        {"t": "Próximo: ARCKHÉSEO 2 · Conteúdo", "href": "https://linnoff88-dev.github.io/ "icone": "seta"}
       ]
     }
   ]

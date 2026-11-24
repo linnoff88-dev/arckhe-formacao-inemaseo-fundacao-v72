@@ -126,8 +126,8 @@
             "Write down the reason in the robots.txt itself, as a comment, for whoever comes next."
           ],
           "exemplo": {
-            "rot": "On inema.club",
-            "texto": "The robots.txt also allows ClaudeBot, which is a training bot: INEMA is open content and chose to allow it."
+            "rot": "On ARCKHÉ AI",
+            "texto": "The robots.txt also allows ClaudeBot, which is a training bot: ARCKHÉ is open content and chose to allow it."
           }
         },
         {
@@ -148,7 +148,7 @@
         {
           "rot": "robots.txt · by purpose",
           "icone": "arquivo",
-          "conteudo": "# robots.txt by purpose (adapted from the inemaSEO templates/robots.txt)\nUser-agent: *\nAllow: /\n\n# Search: show up and get cited in answers\nUser-agent: OAI-SearchBot\nUser-agent: Claude-SearchBot\nUser-agent: PerplexityBot\nUser-agent: Googlebot\nUser-agent: Bingbot\nAllow: /\n\n# User action: the AI opens the page at someone's request\nUser-agent: ChatGPT-User\nUser-agent: Claude-User\nUser-agent: Perplexity-User\nAllow: /\n\n# Training: your call. This example blocks; blocking training does not take you out of search\nUser-agent: GPTBot\nUser-agent: ClaudeBot\nUser-agent: Google-Extended\nDisallow: /\n\nSitemap: https://www.seusite.com/sitemap.xml"
+          "conteudo": "# robots.txt by purpose (adapted from the ARCKHÉSEO templates/robots.txt)\nUser-agent: *\nAllow: /\n\n# Search: show up and get cited in answers\nUser-agent: OAI-SearchBot\nUser-agent: Claude-SearchBot\nUser-agent: PerplexityBot\nUser-agent: Googlebot\nUser-agent: Bingbot\nAllow: /\n\n# User action: the AI opens the page at someone's request\nUser-agent: ChatGPT-User\nUser-agent: Claude-User\nUser-agent: Perplexity-User\nAllow: /\n\n# Training: your call. This example blocks; blocking training does not take you out of search\nUser-agent: GPTBot\nUser-agent: ClaudeBot\nUser-agent: Google-Extended\nDisallow: /\n\nSitemap: https://www.seusite.com/sitemap.xml"
         },
         {
           "rot": "llms.txt · optional (templates/llms.txt, abridged)",

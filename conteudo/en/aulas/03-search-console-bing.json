@@ -90,7 +90,7 @@
             "A duplicate account splits the history and confuses whoever looks after the site."
           ],
           "exemplo": {
-            "rot": "At INEMA (09/23/2026)",
+            "rot": "At ARCKHÉ (09/23/2026)",
             "texto": "One plan said \"no Search Console\" because it only looked in the code. The DNS showed the verification. The rule became: check the TXT record before claiming it doesn't exist."
           }
         },
@@ -194,7 +194,7 @@
             "Nothing, just create it."
           ],
           "certa": 1,
-          "explica": "A TXT record in the DNS shows that someone has already verified the site. At INEMA, a plan claimed \"no Search Console\" by looking only at the code; the DNS said the opposite.",
+          "explica": "A TXT record in the DNS shows that someone has already verified the site. At ARCKHÉ, a plan claimed \"no Search Console\" by looking only at the code; the DNS said the opposite.",
           "ref": "passos",
           "cert": true
         },

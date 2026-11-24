@@ -37,14 +37,14 @@
     {
       "tipo": "passos",
       "titulo": "O caso das 283 fichas",
-      "sub": "O que aconteceu no INEMA e o que se aprende. Clique em cada etapa.",
+      "sub": "O que aconteceu no ARCKHÉ e o que se aprende. Clique em cada etapa.",
       "passos": [
         {"titulo": "O lote", "sub": "30/08/2026",
          "texto": ["283 fichas de cursos foram publicadas num commit só. Das 6 fichas da amostra, 5 estavam \"descobertas, não indexadas\" e nunca tinham sido rastreadas."]},
         {"titulo": "Por quê", "sub": "três achados",
          "texto": ["Cada ficha tinha de 170 a 240 palavras. Duas fichas sorteadas compartilhavam 47% do vocabulário, e a descrição era copiada da página do curso.", "O índice /cursos/ pesava 481 KB de HTML."],
          "exemplo": {"rot": "Leitura", "texto": "Para o buscador, eram centenas de variações da mesma página."}},
-        {"titulo": "A regra", "sub": "método inemaSEO",
+        {"titulo": "A regra", "sub": "método ARCKHÉSEO",
          "texto": ["Página sem conteúdo suficiente recebe noindex e sai do sitemap até ter corpo. Rota em série só entra no sitemap com conteúdo único e dado específico daquele item.", "O enriquecimento das fichas, com dado real e trava anti-invenção, é assunto do curso 2."]},
         {"titulo": "O sinal de alerta", "sub": "Plano B",
          "texto": ["Queda geral depois de publicar muito é sinal de conteúdo em escala. O que fazer: parar, auditar, fundir ou remover as fracas e baixar a cadência."]}
@@ -88,7 +88,7 @@
       "titulo": "Teste o que aprendeu",
       "sub": "A explicação aparece depois da sua resposta.",
       "perguntas": [
-        {"p": "Por que as 283 fichas do INEMA não indexavam?",
+        {"p": "Por que as 283 fichas do ARCKHÉ não indexavam?",
          "opcoes": ["O site estava fora do ar.", "Eram finas e parecidas: 170 a 240 palavras e 47% do vocabulário em comum entre duas fichas.", "Faltava llms.txt.", "O Google não indexa cursos."],
          "certa": 1, "explica": "Publicadas de uma vez, curtas e repetidas, pareciam variações da mesma página. Das 6 da amostra, 5 nunca tinham sido rastreadas.", "ref": "passos", "cert": true},
         {"p": "O que fazer com a página rasa?",
@@ -117,7 +117,7 @@
       "links": [
         {"t": "Google: bloquear indexação com noindex (inglês)", "href": "https://developers.google.com/search/docs/crawling-indexing/block-indexing", "icone": "lupa"},
         {"t": "Google: políticas de spam, conteúdo em escala (inglês)", "href": "https://developers.google.com/search/docs/essentials/spam-policies", "icone": "escudo"},
-        {"t": "Checklist de publicação do inemaSEO", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/CHECKLIST.md", "icone": "check"}
+        {"t": "Checklist de publicação do ARCKHÉSEO", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/CHECKLIST.md", "icone": "check"}
       ]
     }
   ]

@@ -46,7 +46,7 @@
          "texto": ["No raio-x, a linha canonical de cada página deve mostrar o endereço escolhido. Vazio ou diferente é achado.", "Cuidado com partes do site geradas por outro sistema (blog, base de conhecimento, loja): é onde o canônico costuma divergir."]},
         {"titulo": "Conferir o resto", "sub": "sitemap, JSON-LD, links",
          "texto": ["Abra o sitemap e veja se as URLs usam a mesma versão. Faça o mesmo no JSON-LD e nos links do menu e do rodapé.", "Se uma parte do HTML é gerada por script, corrija no gerador, senão a correção some no próximo build."],
-         "exemplo": {"rot": "No INEMA (02/10/2026)", "texto": "O canônico do /conhecimento/ estava sem www, enquanto o sitemap do portal usava www. A correção foi no repositório e no gerador, com aviso para não desfazer."}}
+         "exemplo": {"rot": "No ARCKHÉ (02/10/2026)", "texto": "O canônico do /conhecimento/ estava sem www, enquanto o sitemap do portal usava www. A correção foi no repositório e no gerador, com aviso para não desfazer."}}
       ]
     },
     {
@@ -64,7 +64,7 @@
       "saida": {
         "selo": "real",
         "abas": [
-          {"rot": "Como fica certo", "html": "<p>Redirecionamentos de www.inema.club no raio-x de 19/10/2026:</p><pre>http://www.inema.club/ -&gt; 308 https://www.inema.club/\nhttps://inema.club/ -&gt; 308 https://www.inema.club/\nhttps://www.inema.club/ -&gt; 200</pre><p>As duas variações redirecionam de forma permanente para a versão com www, que responde 200.</p>"},
+          {"rot": "Como fica certo", "html": "<p>Redirecionamentos de www.ARCKHÉ AI no raio-x de 19/10/2026:</p><pre>http://www.ARCKHÉ AI/ -&gt; 308 https://www.ARCKHÉ AI/\nhttps://ARCKHÉ AI/ -&gt; 308 https://www.ARCKHÉ AI/\nhttps://www.ARCKHÉ AI/ -&gt; 200</pre><p>As duas variações redirecionam de forma permanente para a versão com www, que responde 200.</p>"},
           {"rot": "Erros comuns", "html": "<ul><li><b>Redirecionamento temporário (302)</b> no lugar do permanente.</li><li><b>Canônico apontando para a home</b> em todas as páginas: o buscador entende que só a home vale.</li><li><b>Corrigir o HTML gerado</b> e não o gerador: o erro volta no próximo build.</li></ul>"}
         ]
       }
@@ -90,12 +90,12 @@
         {"p": "Qual é a escolha certa: com www ou sem www?",
          "opcoes": ["Sempre com www.", "Sempre sem www.", "Tanto faz, desde que seja uma só em todo lugar.", "As duas, para ter mais páginas."],
          "certa": 2, "explica": "O buscador não prefere uma versão. O problema é ter duas: canonical, sitemap, JSON-LD e links precisam concordar.", "ref": "diagrama", "cert": true},
-        {"p": "O /conhecimento/ do INEMA tinha canônico sem www e o sitemap com www. O risco era:",
+        {"p": "O /conhecimento/ do ARCKHÉ tinha canônico sem www e o sitemap com www. O risco era:",
          "opcoes": ["Nenhum, o Google entende.", "O Google escolher outra URL como oficial.", "O site sair do ar.", "Perder o Search Console."],
          "certa": 1, "explica": "Sinais divergentes deixam a decisão com o Google. Um canônico divergente num subsistema basta para ele escolher outra URL.", "ref": "passos"},
         {"p": "A página é gerada por um script. Onde corrigir o canônico?",
          "opcoes": ["No HTML publicado.", "No gerador.", "No sitemap.", "No robots.txt."],
-         "certa": 1, "explica": "Se corrigir só o HTML, o próximo build desfaz. No caso do INEMA, o gerador foi corrigido e ganhou um aviso.", "ref": "passos"},
+         "certa": 1, "explica": "Se corrigir só o HTML, o próximo build desfaz. No caso do ARCKHÉ, o gerador foi corrigido e ganhou um aviso.", "ref": "passos"},
         {"p": "Qual código de redirecionamento usar entre as variações?",
          "opcoes": ["302 (temporário).", "301 ou 308 (permanente).", "404.", "200 nas duas."],
          "certa": 1, "explica": "Redirecionamento permanente diz que o endereço antigo não vale mais. 200 nas duas versões é justamente o conteúdo duplicado.", "ref": "codigo"}
@@ -115,7 +115,7 @@
       "titulo": "Para ir além",
       "links": [
         {"t": "Google: como consolidar URLs duplicadas (inglês)", "href": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls", "icone": "lupa"},
-        {"t": "Método inemaSEO, etapa 2: fundação técnica", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md", "icone": "lista"}
+        {"t": "Método ARCKHÉSEO, etapa 2: fundação técnica", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md", "icone": "lista"}
       ]
     }
   ]

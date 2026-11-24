@@ -126,8 +126,8 @@
             "Anota el motivo en el propio robots.txt, en un comentario, para quien venga después."
           ],
           "exemplo": {
-            "rot": "En inema.club",
-            "texto": "El robots.txt también permite a ClaudeBot, que es de entrenamiento: INEMA es contenido abierto y eligió permitirlo."
+            "rot": "En ARCKHÉ AI",
+            "texto": "El robots.txt también permite a ClaudeBot, que es de entrenamiento: ARCKHÉ es contenido abierto y eligió permitirlo."
           }
         },
         {
@@ -148,7 +148,7 @@
         {
           "rot": "robots.txt · por finalidad",
           "icone": "arquivo",
-          "conteudo": "# robots.txt por finalidad (adaptado del templates/robots.txt de inemaSEO)\nUser-agent: *\nAllow: /\n\n# Búsqueda: aparecer y ser citado en las respuestas\nUser-agent: OAI-SearchBot\nUser-agent: Claude-SearchBot\nUser-agent: PerplexityBot\nUser-agent: Googlebot\nUser-agent: Bingbot\nAllow: /\n\n# Acción del usuario: la IA abre la página a pedido de alguien\nUser-agent: ChatGPT-User\nUser-agent: Claude-User\nUser-agent: Perplexity-User\nAllow: /\n\n# Entrenamiento: decisión tuya. Este ejemplo bloquea; bloquear el entrenamiento no te saca de la búsqueda\nUser-agent: GPTBot\nUser-agent: ClaudeBot\nUser-agent: Google-Extended\nDisallow: /\n\nSitemap: https://www.seusite.com/sitemap.xml"
+          "conteudo": "# robots.txt por finalidad (adaptado del templates/robots.txt de ARCKHÉSEO)\nUser-agent: *\nAllow: /\n\n# Búsqueda: aparecer y ser citado en las respuestas\nUser-agent: OAI-SearchBot\nUser-agent: Claude-SearchBot\nUser-agent: PerplexityBot\nUser-agent: Googlebot\nUser-agent: Bingbot\nAllow: /\n\n# Acción del usuario: la IA abre la página a pedido de alguien\nUser-agent: ChatGPT-User\nUser-agent: Claude-User\nUser-agent: Perplexity-User\nAllow: /\n\n# Entrenamiento: decisión tuya. Este ejemplo bloquea; bloquear el entrenamiento no te saca de la búsqueda\nUser-agent: GPTBot\nUser-agent: ClaudeBot\nUser-agent: Google-Extended\nDisallow: /\n\nSitemap: https://www.seusite.com/sitemap.xml"
         },
         {
           "rot": "llms.txt · opcional (templates/llms.txt, resumido)",

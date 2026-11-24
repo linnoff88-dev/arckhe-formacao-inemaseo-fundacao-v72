@@ -1,39 +1,39 @@
 {
-  "id": "formacao-inemaseo-fundacao-v72",
+  "id": "formacao-ARCKHÉseo-fundacao-v72",
   "lang": "es",
-  "url": "https://inematds.github.io/formacao-inemaseo-fundacao-v72/es/",
-  "nome": "inemaSEO 1 — Fundación: la radiografía y el cimiento de tu sitio",
-  "sub": "Formación inemaSEO · curso 1 de 7",
+  "url": "https://linnoff88-dev.github.io/
+  "nome": "ARCKHÉSEO 1 — Fundación: la radiografía y el cimiento de tu sitio",
+  "sub": "Formación ARCKHÉSEO · curso 1 de 7",
   "volta": {
-    "t": "Área inemaSEO",
-    "href": "https://eventos.inema.pro/inemaseo/"
+    "t": "Área ARCKHÉSEO",
+    "href": "https://eventos.ARCKHÉ.pro/ARCKHÉseo/"
   },
   "lado_card": {
-    "rot": "Formación inemaSEO",
+    "rot": "Formación ARCKHÉSEO",
     "t": "Curso 1 de 7",
     "texto": "Con el cimiento listo, el curso 2 te enseña a escribir las páginas que solo tú puedes escribir: entidad, territorio y datos propios.",
     "link": "Ir al curso 2",
-    "href": "https://inematds.github.io/formacao-inemaseo-conteudo-v72/"
+    "href": "https://linnoff88-dev.github.io/
   },
-  "rodape": "INEMA.CLUB · contenido abierto y gratuito · formato INEMA Learning v7.2 · <a href=\"https://eventos.inema.pro/inemaseo/\">eventos.inema.pro/inemaseo</a> · <a href=\"https://github.com/inematds/inemaseo-metodo\">método inemaSEO (MIT)</a> · <a href=\"https://inema.club/\">inema.club</a>",
+  "rodape": "ARCKHÉ AI · contenido abierto y gratuito · formato ARCKHÉ Learning v7.2 · <a href=\"https://eventos.ARCKHÉ.pro/ARCKHÉseo/\">eventos.ARCKHÉ.pro/ARCKHÉseo</a> · <a href=\"https://github.com/linnoff88-dev/ARCKHÉseo-metodo\">método ARCKHÉSEO (MIT)</a> · <a href=\"https://ARCKHÉ AI/\">ARCKHÉ AI</a>",
   "videos": {
-    "inemaseo-pratica": {
-      "titulo": "inemaSEO en la práctica: el método en 10 etapas",
+    "ARCKHÉseo-pratica": {
+      "titulo": "ARCKHÉSEO en la práctica: el método en 10 etapas",
       "duracao": "6 min 51 s",
-      "mp4": "https://github.com/inematds/inemaseo-pratica/releases/download/video-v2.0.0/inemaseo-pratica-completo-16x9.mp4",
-      "vtt": "assets/vtt/inemaseo-pratica.vtt",
-      "poster": "assets/img/video-inemaseo.jpg",
-      "pagina": "https://inematds.github.io/inemaseo-pratica/videos/"
+      "mp4": "https://github.com/linnoff88-dev/ARCKHÉseo-pratica/releases/download/video-v2.0.0/ARCKHÉseo-pratica-completo-16x9.mp4",
+      "vtt": "assets/vtt/ARCKHÉseo-pratica.vtt",
+      "poster": "assets/img/video-ARCKHÉseo.jpg",
+      "pagina": "https://linnoff88-dev.github.io/
     }
   },
   "inicio": {
-    "kicker": "Formación inemaSEO · curso 1 de 7 · 8 clases",
+    "kicker": "Formación ARCKHÉSEO · curso 1 de 7 · 8 clases",
     "titulo": "Fundación: la radiografía y el cimiento de tu sitio",
     "lead": "Antes de escribir cualquier página nueva, mira tu sitio como lo mira el buscador. En ocho clases haces la radiografía de solo lectura, verificas el sitio en Search Console y en Bing, ajustas canónico, sitemap y robots.txt, sacas del índice lo que es delgado y avisas a los buscadores. Todo gratis, con scripts abiertos.",
     "cta": "Empezar por la clase 1",
     "cta2": {
-      "t": "Ver el Área inemaSEO",
-      "href": "https://eventos.inema.pro/inemaseo/"
+      "t": "Ver el Área ARCKHÉSEO",
+      "href": "https://eventos.ARCKHÉ.pro/ARCKHÉseo/"
     },
     "capa_alt": "La dueña de un pequeño taller de cerámica mira con atención la pantalla del portátil, sentada a su mesa de trabajo.",
     "numeros": [
@@ -75,13 +75,13 @@
         ]
       },
       {
-        "t": "Dónde encaja este curso en la Formación inemaSEO",
+        "t": "Dónde encaja este curso en la Formación ARCKHÉSEO",
         "itens": [
           "<b>1 Fundación</b> (este curso): el cimiento técnico. Sin él, ningún contenido rinde.",
           "<b>2 Contenido</b> y <b>3 Medición</b>: las páginas que solo tú puedes escribir y el número que importa, el de las búsquedas sin tu marca.",
           "<b>4 En las IA</b>, <b>5 Con Agentes</b> y <b>6 Profesional</b>: paneles oficiales de IA, agentes haciendo lo repetitivo y SEO como servicio.",
-          "<b>7 Sistemas</b>: las 5 herramientas abiertas de inemaseo-sistemas, tu propio Semrush abierto.",
-          "Todos siguen el <a href=\"https://github.com/inematds/inemaseo-metodo\">método inemaSEO</a>, abierto (MIT), aplicado en el portal, en el sitio de noticias y en el de eventos de INEMA."
+          "<b>7 Sistemas</b>: las 5 herramientas abiertas de ARCKHÉseo-sistemas, tu propio Semrush abierto.",
+          "Todos siguen el <a href=\"https://github.com/linnoff88-dev/ARCKHÉseo-metodo\">método ARCKHÉSEO</a>, abierto (MIT), aplicado en el portal, en el sitio de noticias y en el de eventos de ARCKHÉ."
         ]
       }
     ],
@@ -94,7 +94,7 @@
           "rot": "Curso 1 · 8 clases",
           "t": "Fundación: la radiografía y el cimiento de tu sitio",
           "l": "En ocho clases haces la radiografía de solo lectura, verificas el sitio en Search Console y en Bing, ajustas canónico, sitemap y robots.txt, sacas del índice lo que es delgado y avisas a los buscadores.",
-          "href": "https://inematds.github.io/formacao-inemaseo-fundacao-v72/",
+          "href": "https://linnoff88-dev.github.io/
           "href_idioma": true,
           "img": "assets/img/cursos/fundacao.jpg"
         },
@@ -102,7 +102,7 @@
           "rot": "Curso 2 · 8 clases",
           "t": "Contenido: páginas que solo tú puedes escribir",
           "l": "En ocho clases declaras la entidad, separas territorios, validas pauta gratis, escribes pilares y fichas con datos reales, conectas todo con enlaces y aprendes qué no hacer.",
-          "href": "https://inematds.github.io/formacao-inemaseo-conteudo-v72/",
+          "href": "https://linnoff88-dev.github.io/
           "href_idioma": true,
           "img": "assets/img/cursos/conteudo.jpg"
         },
@@ -110,7 +110,7 @@
           "rot": "Curso 3 · 8 clases",
           "t": "Medición y Rutina: el número que importa es el sin marca",
           "l": "En ocho clases separas la marca, lees la inspección de URL, decides cuándo tocar el título, conviertes una consulta en tema, pruebas otro idioma, conectas la meta de conversión y armas la rutina con Plan B.",
-          "href": "https://inematds.github.io/formacao-inemaseo-medicao-v72/",
+          "href": "https://linnoff88-dev.github.io/
           "href_idioma": true,
           "img": "assets/img/cursos/medicao.jpg"
         },
@@ -118,7 +118,7 @@
           "rot": "Curso 4 · 8 clases",
           "t": "En las IAs: AEO, GEO y sitios usados por agentes",
           "l": "En ocho clases separas lo fundamental de lo que es moda, lees los paneles oficiales, mides las citas a mano cada mes, corriges tu entidad, revisas los robots en el log y preparas el sitio para los agentes.",
-          "href": "https://inematds.github.io/formacao-inemaseo-ias-v72/",
+          "href": "https://linnoff88-dev.github.io/
           "href_idioma": true,
           "img": "assets/img/cursos/ias.jpg"
         },
@@ -126,7 +126,7 @@
           "rot": "Curso 5 · 8 clases",
           "t": "Con Agentes: Claude Code y Codex haciendo el trabajo repetitivo",
           "l": "Auditar, extraer, aplicar en lote, revisar e informar: lo repetitivo del SEO cabe en un agente que corre por tu suscripción.",
-          "href": "https://inematds.github.io/formacao-inemaseo-agentes-v72/",
+          "href": "https://linnoff88-dev.github.io/
           "href_idioma": true,
           "img": "assets/img/cursos/agentes.jpg"
         },
@@ -134,7 +134,7 @@
           "rot": "Curso 6 · 8 clases",
           "t": "Profesional: vender y entregar SEO + IA como servicio de confianza",
           "l": "En ocho clases aprendes a vender diagnóstico, plan, seguimiento medido y enseñanza, en lugar de posición 1 o 500 artículos.",
-          "href": "https://inematds.github.io/formacao-inemaseo-profissional-v72/",
+          "href": "https://linnoff88-dev.github.io/
           "href_idioma": true,
           "img": "assets/img/cursos/profissional.jpg"
         },
@@ -142,7 +142,7 @@
           "rot": "Curso 7 · 8 clases",
           "t": "Sistemas: arma tu propio Semrush abierto",
           "l": "Cinco herramientas de terminal, abiertas y gratis, que hacen para tu sitio lo que hacen las suites de pago: auditoría del sitio completo, nota de preparación para IA, historial de Search Console, citas de la IA de Bing y robots de IA en el log.",
-          "href": "https://inematds.github.io/formacao-inemaseo-sistemas-v72/",
+          "href": "https://linnoff88-dev.github.io/
           "href_idioma": true,
           "img": "assets/img/cursos/sistemas-es.jpg"
         }

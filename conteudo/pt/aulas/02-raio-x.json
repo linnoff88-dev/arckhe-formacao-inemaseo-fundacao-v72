@@ -9,7 +9,7 @@
   "objetivo": "rodar o auditoria.sh no seu site e ler cada linha da saída como o buscador lê.",
   "competencias": ["rodar-auditoria-tecnica", "ler-html-do-servidor", "achar-pagina-sem-link"],
   "aprende": [
-    {"t": "Baixar o método inemaSEO e rodar a auditoria"},
+    {"t": "Baixar o método ARCKHÉSEO e rodar a auditoria"},
     {"t": "Ler redirecionamentos, robots.txt, sitemaps e páginas"},
     {"t": "Achar página sem link interno no HTML"},
     {"t": "Transformar a saída em uma lista de achados"}
@@ -41,8 +41,8 @@
       "sub": "Clique em cada etapa.",
       "passos": [
         {"titulo": "Baixar", "sub": "o método é aberto",
-         "texto": ["O inemaSEO é público, com licença MIT. Você precisa de um terminal com bash e curl: Mac e Linux já têm; no Windows, use o WSL ou o Git Bash.", "Clone o repositório e entre na pasta."],
-         "exemplo": {"rot": "Onde está", "texto": "github.com/inematds/inemaseo-metodo, pasta tools/."}},
+         "texto": ["O ARCKHÉSEO é público, com licença MIT. Você precisa de um terminal com bash e curl: Mac e Linux já têm; no Windows, use o WSL ou o Git Bash.", "Clone o repositório e entre na pasta."],
+         "exemplo": {"rot": "Onde está", "texto": "github.com/linnoff88-dev/ARCKHÉseo-metodo, pasta tools/."}},
         {"titulo": "Rodar", "sub": "home + 2 páginas",
          "texto": ["Passe o endereço principal e os caminhos das páginas, separados por espaço. Salve a saída num arquivo para comparar depois.", "Leva menos de um minuto num site pequeno."],
          "exemplo": {"rot": "Dica", "texto": "Escolha uma página de produto ou serviço e uma página nova, que você ainda não viu no Google."}},
@@ -59,7 +59,7 @@
       "sub": "Copie e rode no terminal. Troque o endereço pelo do seu site.",
       "blocos": [
         {"rot": "Terminal · baixar o método", "icone": "git",
-         "conteudo": "git clone https://github.com/inematds/inemaseo-metodo.git\ncd inemaseo-metodo"},
+         "conteudo": "git clone https://github.com/linnoff88-dev/ARCKHÉseo-metodo.git\ncd ARCKHÉseo-metodo"},
         {"rot": "Terminal · rodar e salvar", "icone": "terminal",
          "conteudo": "bash tools/auditoria.sh https://www.seusite.com /pagina-1/ /pagina-2/ > raio-x.txt\ncat raio-x.txt"},
         {"rot": "Lista de achados (modelo)", "icone": "lista",
@@ -68,7 +68,7 @@
       "saida": {
         "selo": "real",
         "abas": [
-          {"rot": "Saída em www.inema.club", "html": "<p>Trecho do <code>auditoria.sh</code> rodado em 19/10/2026 (robots.txt encurtado):</p><pre>== Redirecionamentos\n  http://www.inema.club/ -&gt; 308 https://www.inema.club/\n  https://inema.club/ -&gt; 308 https://www.inema.club/\n  https://www.inema.club/ -&gt; 200\n== robots.txt\n  User-Agent: *\n  Allow: /\n  (…)\n== Sitemaps\n  https://www.inema.club/sitemap.xml: 83 URLs, 60 anotações hreflang\n  https://www.inema.club/courses-sitemap.xml: 100 URLs, 0 anotações hreflang\n== llms.txt: 200\n== Páginas\n-- /cursos/  [200]\n   title:     Cursos de inteligência artificial, agentes e automação | INEMA.club\n   canonical: https://www.inema.club/cursos/\n   hreflang:  hrefLang=\"en\" hrefLang=\"es\" hrefLang=\"pt-BR\" hrefLang=\"x-default\"\n   links internos no HTML: 334\n-- /conhecimento/  [200]\n   canonical: https://www.inema.club/conhecimento/\n   hreflang:\n   links internos no HTML: 58</pre>"},
+          {"rot": "Saída em www.ARCKHÉ AI", "html": "<p>Trecho do <code>auditoria.sh</code> rodado em 19/10/2026 (robots.txt encurtado):</p><pre>== Redirecionamentos\n  http://www.ARCKHÉ AI/ -&gt; 308 https://www.ARCKHÉ AI/\n  https://ARCKHÉ AI/ -&gt; 308 https://www.ARCKHÉ AI/\n  https://www.ARCKHÉ AI/ -&gt; 200\n== robots.txt\n  User-Agent: *\n  Allow: /\n  (…)\n== Sitemaps\n  https://www.ARCKHÉ AI/sitemap.xml: 83 URLs, 60 anotações hreflang\n  https://www.ARCKHÉ AI/courses-sitemap.xml: 100 URLs, 0 anotações hreflang\n== llms.txt: 200\n== Páginas\n-- /cursos/  [200]\n   title:     Cursos de inteligência artificial, agentes e automação | ARCKHÉ AI\n   canonical: https://www.ARCKHÉ AI/cursos/\n   hreflang:  hrefLang=\"en\" hrefLang=\"es\" hrefLang=\"pt-BR\" hrefLang=\"x-default\"\n   links internos no HTML: 334\n-- /conhecimento/  [200]\n   canonical: https://www.ARCKHÉ AI/conhecimento/\n   hreflang:\n   links internos no HTML: 58</pre>"},
           {"rot": "O caso por trás", "html": "<p>Em 30/09/2026 (commit <code>bc50d11</code>), a página <code>/cursos/</code> virou \"só busca\" e as 310 fichas perderam o único link interno que vinha no HTML do servidor. Na tela parecia tudo certo.</p><p>A correção (<code>8229495</code>) foi um índice recolhido em <code>&lt;details&gt;</code> com todos os links, sem mudança visual. A linha \"links internos no HTML\" da <code>/cursos/</code>, acima, é o retrato depois da correção.</p>"},
           {"rot": "Erros comuns", "html": "<ul><li><b>Olhar só no navegador</b>: o que o JavaScript monta pode não existir para o robô.</li><li><b>Auditar só a home</b>: o problema costuma estar na página de catálogo ou na nova.</li><li><b>Corrigir antes de anotar</b>: sem o retrato de antes, você não sabe se melhorou.</li></ul>"}
         ]
@@ -119,9 +119,9 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "auditoria.sh no GitHub", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/auditoria.sh", "icone": "terminal"},
-        {"t": "Método inemaSEO: as 10 etapas", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md", "icone": "lista"},
-        {"t": "WebMCP Readiness: teste do site no navegador", "href": "https://webmcp.inema.pro/", "icone": "lupa"}
+        {"t": "auditoria.sh no GitHub", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/auditoria.sh", "icone": "terminal"},
+        {"t": "Método ARCKHÉSEO: as 10 etapas", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md", "icone": "lista"},
+        {"t": "WebMCP Readiness: teste do site no navegador", "href": "https://webmcp.ARCKHÉ.pro/", "icone": "lupa"}
       ]
     }
   ]

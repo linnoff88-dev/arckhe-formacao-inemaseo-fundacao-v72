@@ -23,7 +23,7 @@
       "t": "Two-way hreflang, on every page"
     },
     {
-      "t": "The case of INEMA's Spanish page"
+      "t": "The case of ARCKHÉ's Spanish page"
     }
   ],
   "hero_alt": "An open paper map on a wooden table, with pins connected by string.",
@@ -92,7 +92,7 @@
             "If every date is today, the generator is using the build time."
           ],
           "exemplo": {
-            "rot": "On the INEMA portal",
+            "rot": "On the ARCKHÉ portal",
             "texto": "The generator takes the date from the catalog, with the comment \"never use the build time\" in the code."
           }
         },
@@ -111,7 +111,7 @@
             "In Spanish, the competition is usually smaller. Translate only the text; structure, images, and code are reused."
           ],
           "exemplo": {
-            "rot": "At INEMA",
+            "rot": "At ARCKHÉ",
             "texto": "The page /es/aprender-inteligencia-artificial/ was indexed on 10/03/2026. The following week it already had 5 to 10 impressions on each Spanish query, in positions 29 to 61."
           }
         }
@@ -142,8 +142,8 @@
         "selo": "real",
         "abas": [
           {
-            "rot": "The inema.club sitemap",
-            "html": "<p>First URL in the www.inema.club sitemap on 10/19/2026:</p><pre>&lt;loc&gt;https://www.inema.club/&lt;/loc&gt;\n&lt;xhtml:link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://www.inema.club/\" /&gt;\n&lt;xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"https://www.inema.club/en/\" /&gt;\n&lt;xhtml:link rel=\"alternate\" hreflang=\"es\" href=\"https://www.inema.club/es/\" /&gt;\n&lt;xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"https://www.inema.club/\" /&gt;\n&lt;lastmod&gt;2026-10-19&lt;/lastmod&gt;</pre><p>The home page changes when the catalog changes, so its date is the catalog's date.</p>"
+            "rot": "The ARCKHÉ AI sitemap",
+            "html": "<p>First URL in the www.ARCKHÉ AI sitemap on 10/19/2026:</p><pre>&lt;loc&gt;https://www.ARCKHÉ AI/&lt;/loc&gt;\n&lt;xhtml:link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://www.ARCKHÉ AI/\" /&gt;\n&lt;xhtml:link rel=\"alternate\" hreflang=\"en\" href=\"https://www.ARCKHÉ AI/en/\" /&gt;\n&lt;xhtml:link rel=\"alternate\" hreflang=\"es\" href=\"https://www.ARCKHÉ AI/es/\" /&gt;\n&lt;xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"https://www.ARCKHÉ AI/\" /&gt;\n&lt;lastmod&gt;2026-10-19&lt;/lastmod&gt;</pre><p>The home page changes when the catalog changes, so its date is the catalog's date.</p>"
           },
           {
             "rot": "How to read the count",
@@ -216,7 +216,7 @@
           "ref": "diagrama"
         },
         {
-          "p": "What does the INEMA Spanish page case show?",
+          "p": "What does the ARCKHÉ Spanish page case show?",
           "opcoes": [
             "That translating changes nothing.",
             "That an ES page indexed on 10/03 already had impressions on ES queries the following week.",
@@ -262,8 +262,8 @@
           "icone": "camadas"
         },
         {
-          "t": "inemaSEO Method: multilingual",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "ARCKHÉSEO Method: multilingual",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "lista"
         }
       ]

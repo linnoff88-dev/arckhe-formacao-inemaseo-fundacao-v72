@@ -5,12 +5,12 @@
   "titulo": "Como Google, Bing e as IAs acham um site",
   "titulo_curto": "Como acham o site",
   "minutos": 14,
-  "lead": "Escrever mais páginas não resolve se o buscador não consegue ler as que você já tem. Esta aula mostra o caminho que uma página percorre até aparecer numa busca ou numa resposta de IA, os três princípios do método inemaSEO e a régua oficial do Google de 2026 para separar fundamento de moda.",
+  "lead": "Escrever mais páginas não resolve se o buscador não consegue ler as que você já tem. Esta aula mostra o caminho que uma página percorre até aparecer numa busca ou numa resposta de IA, os três princípios do método ARCKHÉSEO e a régua oficial do Google de 2026 para separar fundamento de moda.",
   "objetivo": "explicar o caminho rastrear, indexar, mostrar e citar, e escolher o que fazer primeiro no seu site.",
   "competencias": ["explicar-rastreio-e-indexacao", "separar-fundamento-de-moda", "definir-dado-proprio"],
   "aprende": [
     {"t": "O caminho de uma página até a busca e a resposta de IA"},
-    {"t": "Os três princípios do método inemaSEO"},
+    {"t": "Os três princípios do método ARCKHÉSEO"},
     {"t": "O que o guia do Google de maio/2026 diz sobre IA"},
     {"t": "Fazer o primeiro teste de perguntas no seu assunto"}
   ],
@@ -44,13 +44,13 @@
       "passos": [
         {"titulo": "Fundação antes de conteúdo", "sub": "princípio 1",
          "texto": ["Sem canônico certo, sitemap e robots.txt decididos, nenhuma página nova rende. Por isso este curso inteiro vem antes de escrever.", "Você começa olhando o que já existe, não criando mais."],
-         "exemplo": {"rot": "No INEMA", "texto": "Em 23/09/2026, a página /cursos/ aparecia como \"Descoberta, mas não indexada\" e as páginas novas eram desconhecidas pro Google."}},
+         "exemplo": {"rot": "No ARCKHÉ", "texto": "Em 23/09/2026, a página /cursos/ aparecia como \"Descoberta, mas não indexada\" e as páginas novas eram desconhecidas pro Google."}},
         {"titulo": "Só dado real", "sub": "princípio 2",
          "texto": ["Cada página se apoia num curso, projeto, evento ou experimento que existe de verdade. A IA pode reescrever e organizar; nunca inventa fato.", "É o que o próprio Google chama de conteúdo não-commodity: experiência sua, que uma IA não produziria sozinha."],
          "exemplo": {"rot": "Teste rápido", "texto": "Se você trocar o assunto da página e o parágrafo continuar válido, ele é genérico. Reescreva com um dado seu."}},
         {"titulo": "Medido sem a marca", "sub": "princípio 3",
          "texto": ["Quem já te procura pelo nome não prova que o SEO funciona. O número que importa é o de quem não te conhecia e te achou.", "No começo, quase todo clique é da marca, e isso engana."],
-         "exemplo": {"rot": "Linha de base do INEMA", "texto": "Nos 28 dias de 25/08 a 21/09/2026, 639 de 647 cliques eram de marca."}},
+         "exemplo": {"rot": "Linha de base do ARCKHÉ", "texto": "Nos 28 dias de 25/08 a 21/09/2026, 639 de 647 cliques eram de marca."}},
         {"titulo": "A régua de 2026", "sub": "guia do Google, maio",
          "texto": ["O guia oficial do Google para recursos de IA (maio/2026) diz que não há requisito especial para aparecer em AI Overviews e AI Mode: valem as boas práticas de SEO.", "Ele também diz que não é preciso criar arquivo para IA nem schema especial. Use essa régua sempre que alguém vender um atalho."],
          "exemplo": {"rot": "Na prática", "texto": "Fundação técnica + conteúdo com experiência própria. O resto é moda até prova em contrário."}}
@@ -69,7 +69,7 @@
       "saida": {
         "selo": "real",
         "abas": [
-          {"rot": "O caso do INEMA", "html": "<p>Rodada única em 10/07/2026, com 20 perguntas congeladas: o INEMA apareceu em <b>0 de 48</b> respostas neutras no Claude e em <b>0 de 4</b> no Gemini. ChatGPT e Perplexity não foram medidos.</p><p>\"O que é INEMA?\" teve 4 de 4 respostas sobre outro órgão com o mesmo nome: <b>colisão de nome</b>. A pergunta 3 da planilha existe para achar isso no seu caso.</p>"},
+          {"rot": "O caso do ARCKHÉ", "html": "<p>Rodada única em 10/07/2026, com 20 perguntas congeladas: o ARCKHÉ apareceu em <b>0 de 48</b> respostas neutras no Claude e em <b>0 de 4</b> no Gemini. ChatGPT e Perplexity não foram medidos.</p><p>\"O que é ARCKHÉ?\" teve 4 de 4 respostas sobre outro órgão com o mesmo nome: <b>colisão de nome</b>. A pergunta 3 da planilha existe para achar isso no seu caso.</p>"},
           {"rot": "Como ler", "html": "<ul><li>As respostas variam de um dia para o outro: anote a data e repita igual no mês seguinte.</li><li>Zero hoje é ponto de partida, não fracasso.</li><li>A medição completa (20 a 30 perguntas, todo mês) está no curso 4.</li></ul>"}
         ]
       }
@@ -78,7 +78,7 @@
       "tipo": "video",
       "titulo": "O método inteiro em 7 minutos",
       "sub": "O vídeo de 10/10/2026 percorre as 10 etapas. Logo abaixo, o que a pesquisa de outubro corrigiu.",
-      "chave": "inemaseo-pratica"
+      "chave": "ARCKHÉseo-pratica"
     },
     {
       "tipo": "texto",
@@ -116,7 +116,7 @@
          "certa": 2, "explica": "O guia diz que não é preciso arquivo nem marcação especial. O que pesa no longo prazo é conteúdo com experiência própria. Quem vende atalho está vendendo moda.", "ref": "passos"},
         {"p": "Por que o número de cliques totais engana no começo?",
          "opcoes": ["Porque o Search Console erra a conta.", "Porque quase todo clique é de quem já procura pelo seu nome.", "Porque as IAs roubam os cliques.", "Porque cliques não importam."],
-         "certa": 1, "explica": "No INEMA, 639 de 647 cliques eram de marca. O que mostra se o SEO funciona são as buscas sem a marca, de quem não te conhecia.", "ref": "passos"},
+         "certa": 1, "explica": "No ARCKHÉ, 639 de 647 cliques eram de marca. O que mostra se o SEO funciona são as buscas sem a marca, de quem não te conhecia.", "ref": "passos"},
         {"p": "A ligação entre o ChatGPT e o índice do Bing é:",
          "opcoes": ["Declaração oficial da OpenAI.", "Indício de um estudo da Seer, com amostra pequena; não é declaração da OpenAI.", "Mito sem nenhum dado.", "Regra do Google."],
          "certa": 1, "explica": "O estudo achou a maioria das citações entre os primeiros do Bing. É bom motivo para cuidar do Bing, mas diga sempre de onde vem a informação.", "ref": "diagrama"}
@@ -136,9 +136,9 @@
       "titulo": "Para ir além",
       "links": [
         {"t": "Guia do Google: otimização para recursos de IA (inglês)", "href": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide", "icone": "lupa"},
-        {"t": "Método inemaSEO: guia de uso", "href": "https://inematds.github.io/inemaseo-metodo/guia/", "icone": "lista"},
-        {"t": "Página do vídeo inemaSEO na prática", "href": "https://inematds.github.io/inemaseo-pratica/videos/", "icone": "video"},
-        {"t": "Área inemaSEO no Eventos", "href": "https://eventos.inema.pro/inemaseo/", "icone": "camadas"}
+        {"t": "Método ARCKHÉSEO: guia de uso", "href": "https://linnoff88-dev.github.io/ "icone": "lista"},
+        {"t": "Página do vídeo ARCKHÉSEO na prática", "href": "https://linnoff88-dev.github.io/ "icone": "video"},
+        {"t": "Área ARCKHÉSEO no Eventos", "href": "https://eventos.ARCKHÉ.pro/ARCKHÉseo/", "icone": "camadas"}
       ]
     }
   ]

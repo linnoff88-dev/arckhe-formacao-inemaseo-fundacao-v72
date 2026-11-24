@@ -79,7 +79,7 @@
     {
       "tipo": "passos",
       "titulo": "The case of the 283 listings",
-      "sub": "What happened at INEMA and what you can learn from it. Tap each step.",
+      "sub": "What happened at ARCKHÉ and what you can learn from it. Tap each step.",
       "passos": [
         {
           "titulo": "The batch",
@@ -102,7 +102,7 @@
         },
         {
           "titulo": "The rule",
-          "sub": "inemaSEO method",
+          "sub": "ARCKHÉSEO method",
           "texto": [
             "A page without enough content gets noindex and stays out of the sitemap until it has a body. A page in a series only goes into the sitemap with unique content and data specific to that item.",
             "Enriching the listings, with real data and an anti-invention lock, is the topic of course 2."
@@ -179,7 +179,7 @@
       "sub": "The explanation appears after you answer.",
       "perguntas": [
         {
-          "p": "Why were the INEMA 283 listings not getting indexed?",
+          "p": "Why were the ARCKHÉ 283 listings not getting indexed?",
           "opcoes": [
             "The site was down.",
             "They were thin and alike: 170 to 240 words and 47% shared vocabulary between two listings.",
@@ -262,8 +262,8 @@
           "icone": "escudo"
         },
         {
-          "t": "inemaSEO publishing checklist",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/CHECKLIST.md",
+          "t": "ARCKHÉSEO publishing checklist",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/CHECKLIST.md",
           "icone": "check"
         }
       ]

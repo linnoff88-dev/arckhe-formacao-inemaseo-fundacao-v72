@@ -106,7 +106,7 @@
             "No es un secreto: es pública por diseño, prueba que el sitio es tuyo."
           ],
           "exemplo": {
-            "rot": "En INEMA (02/10/2026)",
+            "rot": "En ARCKHÉ (02/10/2026)",
             "texto": "El primer envío del sitio de noticias volvió con 403 SiteVerificationNotCompleted: la clave acababa de publicarse. Reenviar pasados unos 4 minutos lo resolvió."
           }
         },
@@ -126,7 +126,7 @@
             "La respuesta esperada es HTTP 200 o 202."
           ],
           "exemplo": {
-            "rot": "En INEMA",
+            "rot": "En ARCKHÉ",
             "texto": "24/09/2026: 109 URLs por IndexNow, respuesta 202. 02/10: 90 URLs por Bing e IndexNow, respuesta 200."
           }
         },
@@ -138,7 +138,7 @@
             "El script gsc_inspecionar.py hace lo mismo en lote, pero necesita credencial de Google; empieza por el panel."
           ],
           "exemplo": {
-            "rot": "En INEMA",
+            "rot": "En ARCKHÉ",
             "texto": "El 05/10/2026, 12 de 14 URLs clave estaban indexadas; el 13/10, 13 de 14. Faltaba /eventos/, \"desconocida para Google\"."
           }
         }
@@ -249,7 +249,7 @@
             "Mandarlo por correo."
           ],
           "certa": 2,
-          "explica": "En INEMA, la clave recién publicada dio 403; reenviar después de unos 4 minutos lo resolvió.",
+          "explica": "En ARCKHÉ, la clave recién publicada dio 403; reenviar después de unos 4 minutos lo resolvió.",
           "ref": "passos"
         },
         {
@@ -323,7 +323,7 @@
       "tipo": "gerador",
       "titulo": "Genera tu plan con fechas",
       "sub": "Elige la fecha de inicio y cuánto tiempo tienes por semana. El plan respeta el ejercicio que pide una semana de espera.",
-      "curso": "inemaSEO 1 · Fundación",
+      "curso": "ARCKHÉSEO 1 · Fundación",
       "horas_padrao": 3,
       "degraus": [
         {
@@ -360,7 +360,7 @@
         }
       ],
       "txt": {
-        "titulo": "Plan — inemaSEO 1 · Fundación",
+        "titulo": "Plan — ARCKHÉSEO 1 · Fundación",
         "inicio": "Inicio",
         "ritmo": "Ritmo",
         "termino": "Término previsto",
@@ -401,17 +401,17 @@
         },
         {
           "t": "avisar_buscadores.sh en GitHub",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/avisar_buscadores.sh",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/avisar_buscadores.sh",
           "icone": "terminal"
         },
         {
-          "t": "Área inemaSEO en Eventos",
-          "href": "https://eventos.inema.pro/inemaseo/",
+          "t": "Área ARCKHÉSEO en Eventos",
+          "href": "https://eventos.ARCKHÉ.pro/ARCKHÉseo/",
           "icone": "camadas"
         },
         {
-          "t": "Siguiente: inemaSEO 2 · Contenido",
-          "href": "https://inematds.github.io/formacao-inemaseo-conteudo-v72/",
+          "t": "Siguiente: ARCKHÉSEO 2 · Contenido",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "seta"
         }
       ]
