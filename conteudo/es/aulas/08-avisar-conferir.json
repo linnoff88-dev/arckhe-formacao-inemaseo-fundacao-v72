@@ -175,7 +175,7 @@
         "abas": [
           {
             "rot": "Salida del aviso",
-            "html": "<pre>IndexNow: HTTP 202</pre><p>Si una URL no responde 200, el script se detiene antes de enviar:</p><pre>NÃO 200 (404): https://www.seusite.com/pagina-errada/\ncorrija as URLs acima antes de avisar</pre>"
+            "html": "<pre>IndexNow: HTTP 202</pre><p>Si una URL no responde 200, el script se detiene antes de enviar:</p><pre>NêO 200 (404): https://www.seusite.com/pagina-errada/\ncorrija as URLs acima antes de avisar</pre>"
           },
           {
             "rot": "Salida de la inspección",

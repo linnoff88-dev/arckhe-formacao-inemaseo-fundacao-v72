@@ -5,7 +5,7 @@
   "titulo": "Search Console e Bing Webmaster: verificar o site",
   "titulo_curto": "Search Console e Bing",
   "minutos": 15,
-  "lead": "Os dois painéis gratuitos são a única fonte oficial do que o Google e o Bing veem no seu site: o que está indexado, que buscas mostram você e, desde 2026, o que aparece nos recursos de IA. Antes de criar conta nova, confira se alguém já verificou o site: acontece mais do que parece.",
+  "lead": "Os dois painéis gratuitos sêo a única fonte oficial do que o Google e o Bing veem no seu site: o que está indexado, que buscas mostram você e, desde 2026, o que aparece nos recursos de IA. Antes de criar conta nova, confira se alguém já verificou o site: acontece mais do que parece.",
   "objetivo": "conferir se o site já está verificado e verificar no Search Console e no Bing Webmaster, com o sitemap enviado nos dois.",
   "competencias": ["verificar-propriedade-de-dominio", "enviar-sitemap", "ler-paineis-oficiais"],
   "aprende": [
@@ -26,14 +26,14 @@
         {"icone": "cadeado", "titulo": "Propriedade de domínio", "sub": "TXT no DNS", "forte": true,
          "detalhe": "No Search Console, a propriedade de domínio é verificada por um registro TXT no DNS e cobre www, sem www e subdomínios de uma vez. É a forma recomendada pelo método."},
         {"icone": "nuvem", "titulo": "Bing Webmaster", "sub": "importar do Google",
-         "detalhe": "Com o Search Console pronto, o Bing Webmaster importa o site de lá, sem outro registro no DNS. O Bing alimenta o Copilot, e o IndexNow avisa o Bing a cada publicação (aula 8)."},
+         "detalhe": "Com o Search Console pronto, o Bing Webmaster importa o site de lá, sem outro registro no DNS. O Bing alimenta o Copilot, e o IndexNow avisa o Bing a cada publicaçêo (aula 8)."},
         {"icone": "arquivo", "titulo": "Enviar o sitemap", "sub": "nos dois painéis",
          "detalhe": "Envie o endereço do sitemap nos dois painéis e confira o status. Sitemap \"pendente\" ou com erro é o primeiro aviso de problema."},
         {"icone": "grafico", "titulo": "Painéis de IA", "sub": "o que é oficial",
          "itens": [{"icone": "grafico", "t": "Search Console: IA generativa"}, {"icone": "chat", "t": "Bing: AI Performance"}],
-         "detalhe": "O relatório de IA generativa do Search Console vale para todos os sites desde 31/08/2026 e mostra só impressões. O AI Performance do Bing (fevereiro/2026) e o Topics Portfolio (13/10/2026) são os únicos painéis com citações oficiais."}
+         "detalhe": "O relatório de IA generativa do Search Console vale para todos os sites desde 31/08/2026 e mostra só impressões. O AI Performance do Bing (fevereiro/2026) e o Topics Portfolio (13/10/2026) sêo os únicos painéis com citações oficiais."}
       ],
-      "legenda": "Tudo gratuito. Ferramenta paga não tem dado do índice do Google: só estimativa."
+      "legenda": "Tudo gratuito. Ferramenta paga nêo tem dado do índice do Google: só estimativa."
     },
     {
       "tipo": "passos",
@@ -42,12 +42,12 @@
       "passos": [
         {"titulo": "Procurar o que já existe", "sub": "antes de criar",
          "texto": ["Rode o comando dig no seu domínio. Se aparecer google-site-verification, alguém já verificou: ache essa conta e peça acesso.", "Conta duplicada separa o histórico e confunde quem cuida do site."],
-         "exemplo": {"rot": "No ARCKHÉ (23/09/2026)", "texto": "Um plano dizia \"sem Search Console\" porque procurou só no código. O DNS mostrava a verificação. A regra virou: conferir o TXT antes de afirmar que não existe."}},
-        {"titulo": "Criar a propriedade", "sub": "domínio, não prefixo",
-         "texto": ["No Search Console, escolha \"Domínio\" e cole o TXT que ele mostra no painel do seu DNS (no registrador ou na CDN).", "A propagação pode levar alguns minutos; depois clique em verificar."],
+         "exemplo": {"rot": "No ARCKHÉ (23/09/2026)", "texto": "Um plano dizia \"sem Search Console\" porque procurou só no código. O DNS mostrava a verificaçêo. A regra virou: conferir o TXT antes de afirmar que nêo existe."}},
+        {"titulo": "Criar a propriedade", "sub": "domínio, nêo prefixo",
+         "texto": ["No Search Console, escolha \"Domínio\" e cole o TXT que ele mostra no painel do seu DNS (no registrador ou na CDN).", "A propagaçêo pode levar alguns minutos; depois clique em verificar."],
          "exemplo": {"rot": "Por que domínio", "texto": "Uma propriedade só cobre www, sem www e subdomínios como news. ou eventos."}},
         {"titulo": "Ligar o Bing", "sub": "importar",
-         "texto": ["Em bing.com/webmasters, entre com uma conta e escolha importar do Google Search Console.", "Se preferir, o Bing também aceita verificação própria. O IndexNow avisa o Bing mesmo sem o site estar nesse painel."]},
+         "texto": ["Em bing.com/webmasters, entre com uma conta e escolha importar do Google Search Console.", "Se preferir, o Bing também aceita verificaçêo própria. O IndexNow avisa o Bing mesmo sem o site estar nesse painel."]},
         {"titulo": "Enviar e esperar", "sub": "sitemap",
          "texto": ["Envie o sitemap nos dois e anote a data. Os relatórios de desempenho começam a encher em alguns dias.", "Na semana seguinte, olhe a lista de páginas e o status do sitemap."]}
       ]
@@ -61,14 +61,14 @@
          "conteudo": "dig TXT seusite.com +short\n# procure uma linha com google-site-verification="},
         {"rot": "Registro TXT no DNS (modelo)", "icone": "arquivo",
          "conteudo": "Tipo:  TXT\nNome:  @   (o domínio raiz)\nValor: google-site-verification=<código que o Search Console mostra>"},
-        {"rot": "Anotação da verificação", "icone": "lista",
+        {"rot": "Anotaçêo da verificaçêo", "icone": "lista",
          "conteudo": "Search Console: propriedade de domínio <seusite.com>, verificada em <dd/mm/aaaa>, conta <quem é dono>\nBing Webmaster: importado do Search Console em <dd/mm/aaaa>\nSitemap enviado: <https://www.seusite.com/sitemap.xml> — status <sucesso / pendente>"}
       ],
       "saida": {
         "selo": "simulacao",
         "abas": [
-          {"rot": "Resposta do dig", "html": "<pre>\"google-site-verification=AbCdEf123exemplo\"\n\"v=spf1 include:_spf.exemplo.com ~all\"</pre><p>A primeira linha diz que o site já tem dono no Search Console. A segunda é do e-mail e não tem relação com SEO.</p>"},
-          {"rot": "Erros comuns", "html": "<ul><li><b>Prefixo em vez de domínio</b>: verifica só uma versão do endereço e esconde o resto.</li><li><b>Apagar o TXT depois de verificar</b>: o Search Console volta a pedir verificação.</li><li><b>Confiar em ferramenta paga para saber o que está indexado</b>: só os painéis oficiais têm esse dado.</li></ul>"}
+          {"rot": "Resposta do dig", "html": "<pre>\"google-site-verification=AbCdEf123exemplo\"\n\"v=spf1 include:_spf.exemplo.com ~all\"</pre><p>A primeira linha diz que o site já tem dono no Search Console. A segunda é do e-mail e nêo tem relaçêo com SEO.</p>"},
+          {"rot": "Erros comuns", "html": "<ul><li><b>Prefixo em vez de domínio</b>: verifica só uma versêo do endereço e esconde o resto.</li><li><b>Apagar o TXT depois de verificar</b>: o Search Console volta a pedir verificaçêo.</li><li><b>Confiar em ferramenta paga para saber o que está indexado</b>: só os painéis oficiais têm esse dado.</li></ul>"}
         ]
       }
     },
@@ -78,7 +78,7 @@
       "sub": "Faça na ordem.",
       "exercicios": [
         {"id": "e1", "titulo": "E1 · O dig antes de tudo", "min": "10 min",
-         "texto": "Rode o dig TXT no seu domínio e anote o resultado. Se já houver verificação, descubra de quem é a conta.",
+         "texto": "Rode o dig TXT no seu domínio e anote o resultado. Se já houver verificaçêo, descubra de quem é a conta.",
          "pronto": "você sabe dizer se o site já estava verificado e quem tem acesso."},
         {"id": "e2", "titulo": "E2 · Verificado e com sitemap", "min": "30 min",
          "texto": "Crie (ou recupere) a propriedade de domínio no Search Console, importe no Bing Webmaster e envie o sitemap nos dois.",
@@ -88,20 +88,20 @@
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
         {"p": "Antes de criar uma conta no Search Console, o que conferir?",
          "opcoes": ["O número de visitas.", "Se o DNS já tem um TXT google-site-verification.", "Se o site tem llms.txt.", "Nada, basta criar."],
          "certa": 1, "explica": "O TXT no DNS mostra que alguém já verificou. No ARCKHÉ, um plano afirmou \"sem Search Console\" olhando só o código; o DNS dizia o contrário.", "ref": "passos", "cert": true},
         {"p": "Por que a propriedade de domínio é a escolha do método?",
          "opcoes": ["É a única gratuita.", "Cobre www, sem www e subdomínios numa propriedade só.", "Indexa mais rápido.", "Dispensa o sitemap."],
-         "certa": 1, "explica": "Com prefixo você verifica uma versão só do endereço. A de domínio junta tudo e evita histórico separado.", "ref": "diagrama"},
+         "certa": 1, "explica": "Com prefixo você verifica uma versêo só do endereço. A de domínio junta tudo e evita histórico separado.", "ref": "diagrama"},
         {"p": "O que o relatório de IA generativa do Search Console mostra?",
-         "opcoes": ["Cliques e posição nas respostas de IA.", "Impressões nos recursos de IA do Google.", "Citações no ChatGPT.", "O texto que a IA escreveu sobre você."],
+         "opcoes": ["Cliques e posiçêo nas respostas de IA.", "Impressões nos recursos de IA do Google.", "Citações no ChatGPT.", "O texto que a IA escreveu sobre você."],
          "certa": 1, "explica": "Desde 31/08/2026 ele vale para todos os sites e mostra impressões. Citações oficiais, por enquanto, só no AI Performance do Bing.", "ref": "diagrama"},
-        {"p": "Uma ferramenta paga diz que 500 páginas suas estão no Google. Em que confiar?",
+        {"p": "Uma ferramenta paga diz que 500 páginas suas estêo no Google. Em que confiar?",
          "opcoes": ["Na ferramenta paga.", "No relatório de páginas do Search Console.", "Na média das duas.", "Em nenhuma."],
-         "certa": 1, "explica": "O Google diz que nenhuma ferramenta de terceiros tem acesso aos sistemas dele. O dado de indexação está no Search Console.", "ref": "codigo"}
+         "certa": 1, "explica": "O Google diz que nenhuma ferramenta de terceiros tem acesso aos sistemas dele. O dado de indexaçêo está no Search Console.", "ref": "codigo"}
       ]
     },
     {

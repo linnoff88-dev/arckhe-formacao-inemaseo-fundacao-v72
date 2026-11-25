@@ -5,7 +5,7 @@
   "titulo": "Raio-x só de leitura: o HTML que o servidor entrega",
   "titulo_curto": "Raio-x do site",
   "minutos": 16,
-  "lead": "O buscador não vê o seu site como você vê no navegador: ele lê o HTML que o servidor entrega, quase sempre sem rodar JavaScript. Um script de 40 linhas faz essa leitura por você, sem mudar nada no site, e mostra em minutos o que nenhum painel bonito mostra.",
+  "lead": "O buscador nêo vê o seu site como você vê no navegador: ele lê o HTML que o servidor entrega, quase sempre sem rodar JavaScript. Um script de 40 linhas faz essa leitura por você, sem mudar nada no site, e mostra em minutos o que nenhum painel bonito mostra.",
   "objetivo": "rodar o auditoria.sh no seu site e ler cada linha da saída como o buscador lê.",
   "competencias": ["rodar-auditoria-tecnica", "ler-html-do-servidor", "achar-pagina-sem-link"],
   "aprende": [
@@ -19,14 +19,14 @@
     {
       "tipo": "diagrama",
       "titulo": "O que o raio-x olha",
-      "sub": "Só leitura: o script usa curl e não altera nada. Clique em cada bloco.",
+      "sub": "Só leitura: o script usa curl e nêo altera nada. Clique em cada bloco.",
       "nos": [
         {"icone": "nuvem", "titulo": "Seu site", "sub": "o endereço principal",
          "detalhe": "Você passa o endereço principal e, se quiser, algumas páginas. Comece pela home e por duas páginas que importam para o negócio."},
         {"icone": "terminal", "titulo": "curl", "sub": "sem rodar JavaScript",
-         "detalhe": "O script baixa cada endereço como um robô baixaria: o HTML que o servidor entrega. Se um link só aparece depois que o JavaScript roda, ele não aparece aqui, e o buscador pode não vê-lo."},
+         "detalhe": "O script baixa cada endereço como um robô baixaria: o HTML que o servidor entrega. Se um link só aparece depois que o JavaScript roda, ele nêo aparece aqui, e o buscador pode nêo vê-lo."},
         {"icone": "seta", "titulo": "Redirecionamentos", "sub": "http, com e sem www",
-         "detalhe": "Testa as três variações do endereço. O certo é todas levarem à mesma versão (aula 4)."},
+         "detalhe": "Testa as três variações do endereço. O certo é todas levarem à mesma versêo (aula 4)."},
         {"icone": "arquivo", "titulo": "robots.txt e sitemaps", "sub": "e o llms.txt",
          "detalhe": "Mostra o robots.txt inteiro, conta as URLs de cada sitemap listado nele e quantas têm hreflang, e diz se existe llms.txt (opcional, aula 6)."},
         {"icone": "lista", "titulo": "Cada página", "sub": "7 linhas", "forte": true,
@@ -45,9 +45,9 @@
          "exemplo": {"rot": "Onde está", "texto": "github.com/linnoff88-dev/ARCKHÉseo-metodo, pasta tools/."}},
         {"titulo": "Rodar", "sub": "home + 2 páginas",
          "texto": ["Passe o endereço principal e os caminhos das páginas, separados por espaço. Salve a saída num arquivo para comparar depois.", "Leva menos de um minuto num site pequeno."],
-         "exemplo": {"rot": "Dica", "texto": "Escolha uma página de produto ou serviço e uma página nova, que você ainda não viu no Google."}},
+         "exemplo": {"rot": "Dica", "texto": "Escolha uma página de produto ou serviço e uma página nova, que você ainda nêo viu no Google."}},
         {"titulo": "Ler", "sub": "linha por linha",
-         "texto": ["Canônico vazio ou diferente do endereço? Links internos perto de zero? Meta robots com noindex numa página importante? Cada um vira um achado.", "Não corrija nada ainda: só anote."],
+         "texto": ["Canônico vazio ou diferente do endereço? Links internos perto de zero? Meta robots com noindex numa página importante? Cada um vira um achado.", "Nêo corrija nada ainda: só anote."],
          "exemplo": {"rot": "Achado típico", "texto": "Página de catálogo que virou \"só busca\" no navegador e deixou centenas de páginas sem nenhum link no HTML."}},
         {"titulo": "Anotar", "sub": "achado + linha + aula",
          "texto": ["Para cada achado, copie a linha da saída que o mostra e a aula deste curso que trata dele.", "Essa lista é o seu plano das próximas semanas."]}
@@ -68,9 +68,9 @@
       "saida": {
         "selo": "real",
         "abas": [
-          {"rot": "Saída em www.ARCKHÉ AI", "html": "<p>Trecho do <code>auditoria.sh</code> rodado em 19/10/2026 (robots.txt encurtado):</p><pre>== Redirecionamentos\n  http://www.ARCKHÉ AI/ -&gt; 308 https://www.ARCKHÉ AI/\n  https://ARCKHÉ AI/ -&gt; 308 https://www.ARCKHÉ AI/\n  https://www.ARCKHÉ AI/ -&gt; 200\n== robots.txt\n  User-Agent: *\n  Allow: /\n  (…)\n== Sitemaps\n  https://www.ARCKHÉ AI/sitemap.xml: 83 URLs, 60 anotações hreflang\n  https://www.ARCKHÉ AI/courses-sitemap.xml: 100 URLs, 0 anotações hreflang\n== llms.txt: 200\n== Páginas\n-- /cursos/  [200]\n   title:     Cursos de inteligência artificial, agentes e automação | ARCKHÉ AI\n   canonical: https://www.ARCKHÉ AI/cursos/\n   hreflang:  hrefLang=\"en\" hrefLang=\"es\" hrefLang=\"pt-BR\" hrefLang=\"x-default\"\n   links internos no HTML: 334\n-- /conhecimento/  [200]\n   canonical: https://www.ARCKHÉ AI/conhecimento/\n   hreflang:\n   links internos no HTML: 58</pre>"},
-          {"rot": "O caso por trás", "html": "<p>Em 30/09/2026 (commit <code>bc50d11</code>), a página <code>/cursos/</code> virou \"só busca\" e as 310 fichas perderam o único link interno que vinha no HTML do servidor. Na tela parecia tudo certo.</p><p>A correção (<code>8229495</code>) foi um índice recolhido em <code>&lt;details&gt;</code> com todos os links, sem mudança visual. A linha \"links internos no HTML\" da <code>/cursos/</code>, acima, é o retrato depois da correção.</p>"},
-          {"rot": "Erros comuns", "html": "<ul><li><b>Olhar só no navegador</b>: o que o JavaScript monta pode não existir para o robô.</li><li><b>Auditar só a home</b>: o problema costuma estar na página de catálogo ou na nova.</li><li><b>Corrigir antes de anotar</b>: sem o retrato de antes, você não sabe se melhorou.</li></ul>"}
+          {"rot": "Saída em www.ARCKHÉ AI", "html": "<p>Trecho do <code>auditoria.sh</code> rodado em 19/10/2026 (robots.txt encurtado):</p><pre>== Redirecionamentos\n  http://www.ARCKHÉ AI/ -&gt; 308 https://www.ARCKHÉ AI/\n  https://ARCKHÉ AI/ -&gt; 308 https://www.ARCKHÉ AI/\n  https://www.ARCKHÉ AI/ -&gt; 200\n== robots.txt\n  User-Agent: *\n  Allow: /\n  (…)\n== Sitemaps\n  https://www.ARCKHÉ AI/sitemap.xml: 83 URLs, 60 anotações hreflang\n  https://www.ARCKHÉ AI/courses-sitemap.xml: 100 URLs, 0 anotações hreflang\n== llms.txt: 200\n== Páginas\n-- /cursos/  [200]\n   title:     Cursos de inteligência artificial, agentes e automaçêo | ARCKHÉ AI\n   canonical: https://www.ARCKHÉ AI/cursos/\n   hreflang:  hrefLang=\"en\" hrefLang=\"es\" hrefLang=\"pt-BR\" hrefLang=\"x-default\"\n   links internos no HTML: 334\n-- /conhecimento/  [200]\n   canonical: https://www.ARCKHÉ AI/conhecimento/\n   hreflang:\n   links internos no HTML: 58</pre>"},
+          {"rot": "O caso por trás", "html": "<p>Em 30/09/2026 (commit <code>bc50d11</code>), a página <code>/cursos/</code> virou \"só busca\" e as 310 fichas perderam o único link interno que vinha no HTML do servidor. Na tela parecia tudo certo.</p><p>A correçêo (<code>8229495</code>) foi um índice recolhido em <code>&lt;details&gt;</code> com todos os links, sem mudança visual. A linha \"links internos no HTML\" da <code>/cursos/</code>, acima, é o retrato depois da correçêo.</p>"},
+          {"rot": "Erros comuns", "html": "<ul><li><b>Olhar só no navegador</b>: o que o JavaScript monta pode nêo existir para o robô.</li><li><b>Auditar só a home</b>: o problema costuma estar na página de catálogo ou na nova.</li><li><b>Corrigir antes de anotar</b>: sem o retrato de antes, você nêo sabe se melhorou.</li></ul>"}
         ]
       }
     },
@@ -90,20 +90,20 @@
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
-        {"p": "Por que o raio-x usa curl e não o navegador?",
-         "opcoes": ["Porque é mais bonito.", "Porque mostra o HTML que o servidor entrega, sem rodar JavaScript, como o robô costuma ler.", "Porque o navegador não abre sites.", "Porque o curl indexa a página."],
-         "certa": 1, "explica": "O navegador roda JavaScript e monta coisas que o robô pode não ver. O raio-x mostra a versão do servidor, que é a base para o buscador.", "ref": "diagrama", "cert": true},
+        {"p": "Por que o raio-x usa curl e nêo o navegador?",
+         "opcoes": ["Porque é mais bonito.", "Porque mostra o HTML que o servidor entrega, sem rodar JavaScript, como o robô costuma ler.", "Porque o navegador nêo abre sites.", "Porque o curl indexa a página."],
+         "certa": 1, "explica": "O navegador roda JavaScript e monta coisas que o robô pode nêo ver. O raio-x mostra a versêo do servidor, que é a base para o buscador.", "ref": "diagrama", "cert": true},
         {"p": "A tela de /cursos/ estava normal, mas as fichas sumiram dos links. O que mostrou o problema?",
          "opcoes": ["O número de visitas.", "A linha \"links internos no HTML\" do raio-x.", "O llms.txt.", "A velocidade do site."],
-         "certa": 1, "explica": "A busca no navegador montava os links com JavaScript; no HTML do servidor eles não existiam. O índice recolhido devolveu os links sem mudar o visual.", "ref": "codigo"},
+         "certa": 1, "explica": "A busca no navegador montava os links com JavaScript; no HTML do servidor eles nêo existiam. O índice recolhido devolveu os links sem mudar o visual.", "ref": "codigo"},
         {"p": "O raio-x muda alguma coisa no seu site?",
-         "opcoes": ["Sim, corrige o canônico.", "Sim, envia o sitemap.", "Não: é só leitura, com curl.", "Só se você tiver senha."],
+         "opcoes": ["Sim, corrige o canônico.", "Sim, envia o sitemap.", "Nêo: é só leitura, com curl.", "Só se você tiver senha."],
          "certa": 2, "explica": "É só leitura. Por isso dá para rodar em qualquer site público, inclusive no de um concorrente ou cliente, antes de mexer.", "ref": "diagrama"},
         {"p": "Achou um problema no raio-x. Qual o próximo passo nesta aula?",
          "opcoes": ["Corrigir na hora.", "Anotar com a linha da saída e a aula que trata dele.", "Rodar de novo até sumir.", "Ignorar se a home estiver boa."],
-         "certa": 1, "explica": "Primeiro o retrato completo, depois a correção. A lista de achados vira o plano das próximas aulas e a comparação de antes e depois.", "ref": "passos"}
+         "certa": 1, "explica": "Primeiro o retrato completo, depois a correçêo. A lista de achados vira o plano das próximas aulas e a comparaçêo de antes e depois.", "ref": "passos"}
       ]
     },
     {
@@ -111,7 +111,7 @@
       "titulo": "Para levar",
       "itens": [
         {"t": "Só leitura", "texto": "auditoria.sh lê o HTML do servidor com curl, sem mudar nada."},
-        {"t": "A linha que mais pega", "texto": "Links internos no HTML: página sem link quase não existe para o buscador."},
+        {"t": "A linha que mais pega", "texto": "Links internos no HTML: página sem link quase nêo existe para o buscador."},
         {"t": "Saída", "texto": "raio-x.txt + lista de achados com a linha e a aula."}
       ]
     },

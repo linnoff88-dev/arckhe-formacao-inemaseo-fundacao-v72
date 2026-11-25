@@ -175,7 +175,7 @@
         "abas": [
           {
             "rot": "Notification output",
-            "html": "<pre>IndexNow: HTTP 202</pre><p>If a URL doesn't respond with 200, the script stops before sending:</p><pre>NÃO 200 (404): https://www.seusite.com/pagina-errada/\ncorrija as URLs acima antes de avisar</pre>"
+            "html": "<pre>IndexNow: HTTP 202</pre><p>If a URL doesn't respond with 200, the script stops before sending:</p><pre>NêO 200 (404): https://www.seusite.com/pagina-errada/\ncorrija as URLs acima antes de avisar</pre>"
           },
           {
             "rot": "Inspection output",
